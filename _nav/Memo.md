@@ -7,7 +7,7 @@ main_nav: true
 
 {% assign memo_categories = "" | split: "" %}
 {% for post in site.posts %}
-  {% if post.path contains '_posts/Memo' %}
+  {% if post.path contains '_posts/memo' %}
     {% unless memo_categories contains post.categories[0] %}
       {% assign memo_categories = memo_categories | push: post.categories[0] %}
     {% endunless %}
@@ -15,9 +15,9 @@ main_nav: true
 {% endfor %}
 
 {% for category in memo_categories %}
-  {% assign category_posts = site.categories[category] | where_exp: "post", "post.path contains '_posts/Memo'" %}
-  <h3 id="{{category}}">
-    <a href="{{ site.baseurl }}/category/{{ category }}/">{{ category }} ({{ site.categories[category].size }})</a>
+  {% assign category_posts = site.categories[category] | where_exp: "post", "post.path contains '_posts/memo'" %}
+  <h3 id="{{cat}}">
+    <a href="{{ site.baseurl }}/category/{{ category }}/">{{ cat | capitalize }} ({{ site.categories[category].size }})</a>
   </h3>
   <ul class="posts-list">
   {% for post in category_posts limit:4 %}
