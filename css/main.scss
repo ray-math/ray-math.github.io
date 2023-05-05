@@ -1,0 +1,31 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+// Includes Bourbon, Neat, and Bitters (thanks, thoughtbot!)
+@import
+  "bourbon/bourbon",
+  "base/base",
+  "neat/neat",
+  "layout"
+;
+
+.markdown-body {
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+  font-family: 'NanumSquareRound'
+}
+
+/* h 태그 위 아래 마진 조절 */
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 2.2em;
+  margin-bottom: 0.8em;
+}  
