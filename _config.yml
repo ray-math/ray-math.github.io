@@ -5,6 +5,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate-v2
 
+exclude:
+  - "/vendor/"
+
 # Site settings
 title: Ray 수학
 subtitle: You know what’s cooler than magic? Math!
@@ -53,15 +56,3 @@ nav:
     link: /memo/
   - name: "Math"
     link: /math/
-
-exclude:
-  - README.md
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
-  - assets/css
-  - "/vendor/"
-# _post
-  - _posts/math
-  - _posts/memo/money
-  - _posts/youtube
