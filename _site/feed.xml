@@ -5,8 +5,8 @@
     <description></description>
     <link>https://ray-math.github.io/</link>
     <atom:link href="https://ray-math.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 May 2023 22:51:41 +0900</pubDate>
-    <lastBuildDate>Fri, 05 May 2023 22:51:41 +0900</lastBuildDate>
+    <pubDate>Fri, 05 May 2023 23:07:22 +0900</pubDate>
+    <lastBuildDate>Fri, 05 May 2023 23:07:22 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -81,9 +81,7 @@
         <link>https://ray-math.github.io/algebra/2023/05/02/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy-3.html</link>
         <guid isPermaLink="true">https://ray-math.github.io/algebra/2023/05/02/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy-3.html</guid>
         
-        <category>태그테스트</category>
-        
-        <category>태그</category>
+        <category>ready</category>
         
         
         <category>algebra</category>
@@ -115,7 +113,7 @@
         <category>ready</category>
         
         
-        <category>Money</category>
+        <category>money</category>
         
       </item>
     
