@@ -29,7 +29,7 @@ task :publish => [:generate] do
     system "git add ."
     #system "git config --global user.email you@example.com"
     #system "git config --global user.name Your Name"
-    message = "Site updated at #{Time.now.utc}"
+    message = "Site updated at #{Time.now.utc + 9 * 3600}"
     system "git commit -m #{message.inspect}"
     system "git remote add origin https://github.com/#{GITHUB_REPONAME}.git"
     system "git push origin main --force"
