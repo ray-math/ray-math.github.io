@@ -5,22 +5,22 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 May 2023 18:38:27 +0900</pubDate>
-    <lastBuildDate>Fri, 05 May 2023 18:38:27 +0900</lastBuildDate>
+    <pubDate>Fri, 05 May 2023 19:01:28 +0900</pubDate>
+    <lastBuildDate>Fri, 05 May 2023 19:01:28 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
         <title>asdasd4</title>
         <description>&lt;p&gt;asd&lt;/p&gt;
 </description>
-        <pubDate>Fri, 05 May 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/%EB%8C%80%EC%88%98/2023/05/05/%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3-1.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%EB%8C%80%EC%88%98/2023/05/05/%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3-1.html</guid>
+        <pubDate>Thu, 04 May 2023 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/algebra/2023/05/04/%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3-1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/algebra/2023/05/04/%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3-1.html</guid>
         
         <category>태그테스트</category>
         
         
-        <category>대수</category>
+        <category>Algebra</category>
         
       </item>
     
@@ -28,15 +28,32 @@
         <title>RSA 암호학의 수학| 이해와 원리</title>
         <description>&lt;p&gt;RSA 암호 체계는 현재 가장 널리 사용되는 암호 체계 중 하나입니다. Ron Rivest, Adi Shamir, 그리고 Leonard Adleman의 이니셜을 따서 이름이 지어진 이 체계는 큰 양의 정수 e, d, m...</description>
         <pubDate>Thu, 04 May 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/%EB%8C%80%EC%88%98/%ED%95%B4%EC%84%9D/2023/05/04/%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%A8-copy.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%EB%8C%80%EC%88%98/%ED%95%B4%EC%84%9D/2023/05/04/%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%A8-copy.html</guid>
+        <link>http://localhost:4000/algebra/analysis/2023/05/04/%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%A8-copy.html</link>
+        <guid isPermaLink="true">http://localhost:4000/algebra/analysis/2023/05/04/%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%A8-copy.html</guid>
         
         <category>태그테스트</category>
         
         
-        <category>대수</category>
+        <category>Algebra</category>
         
-        <category>해석</category>
+        <category>Analysis</category>
+        
+      </item>
+    
+      <item>
+        <title>asdasd3</title>
+        <description>&lt;p&gt;asd12&lt;/p&gt;
+</description>
+        <pubDate>Wed, 03 May 2023 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/algebra/2023/05/03/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy.html</link>
+        <guid isPermaLink="true">http://localhost:4000/algebra/2023/05/03/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy.html</guid>
+        
+        <category>태그테스트,</category>
+        
+        <category>태그</category>
+        
+        
+        <category>Algebra</category>
         
       </item>
     
@@ -55,16 +72,48 @@
       </item>
     
       <item>
+        <title>asdasd2</title>
+        <description>&lt;p&gt;asdg3g3&lt;/p&gt;
+</description>
+        <pubDate>Tue, 02 May 2023 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/algebra/2023/05/02/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy-3.html</link>
+        <guid isPermaLink="true">http://localhost:4000/algebra/2023/05/02/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy-3.html</guid>
+        
+        <category>태그테스트</category>
+        
+        <category>태그</category>
+        
+        
+        <category>Algebra</category>
+        
+      </item>
+    
+      <item>
+        <title>asdasd1</title>
+        <description>&lt;p&gt;asd3gasfsa&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 May 2023 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/algebra/2023/05/01/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/algebra/2023/05/01/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy-2.html</guid>
+        
+        <category>태그테스트</category>
+        
+        
+        <category>Algebra</category>
+        
+      </item>
+    
+      <item>
         <title>Test</title>
         <description>&lt;p&gt;좋습니다! LaTeX에서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$&lt;/code&gt;와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$&lt;/code&gt; 기호를 사용하여 수식을 표시하는 다양한 예시를 소개해 드리겠습니다.&lt;/p&gt; &lt;ol&gt; &lt;li&gt;인라인 수식 (Inline Math): &lt;ul&gt; &lt;li&gt;예시: The equation $E=mc^2$ shows the relationship between...</description>
         <pubDate>Wed, 19 Apr 2023 04:25:52 +0900</pubDate>
-        <link>http://localhost:4000/%EA%B2%BD%EC%A0%9C/2023/04/19/%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%A8%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%EA%B2%BD%EC%A0%9C/2023/04/19/%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%A8%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3.html</guid>
+        <link>http://localhost:4000/money/2023/04/19/%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%A8%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3.html</link>
+        <guid isPermaLink="true">http://localhost:4000/money/2023/04/19/%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%A8%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3.html</guid>
         
         <category>준비완료</category>
         
         
-        <category>경제</category>
+        <category>Money</category>
         
       </item>
     
