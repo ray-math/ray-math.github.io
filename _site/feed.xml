@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 May 2023 19:01:28 +0900</pubDate>
-    <lastBuildDate>Fri, 05 May 2023 19:01:28 +0900</lastBuildDate>
+    <pubDate>Fri, 05 May 2023 20:03:23 +0900</pubDate>
+    <lastBuildDate>Fri, 05 May 2023 20:03:23 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -28,8 +28,8 @@
         <title>RSA 암호학의 수학| 이해와 원리</title>
         <description>&lt;p&gt;RSA 암호 체계는 현재 가장 널리 사용되는 암호 체계 중 하나입니다. Ron Rivest, Adi Shamir, 그리고 Leonard Adleman의 이니셜을 따서 이름이 지어진 이 체계는 큰 양의 정수 e, d, m...</description>
         <pubDate>Thu, 04 May 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/algebra/analysis/2023/05/04/%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%A8-copy.html</link>
-        <guid isPermaLink="true">http://localhost:4000/algebra/analysis/2023/05/04/%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%A8-copy.html</guid>
+        <link>http://localhost:4000/algebra/analysis/test/2023/05/04/%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%A8-copy.html</link>
+        <guid isPermaLink="true">http://localhost:4000/algebra/analysis/test/2023/05/04/%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%A8-copy.html</guid>
         
         <category>태그테스트</category>
         
@@ -37,6 +37,8 @@
         <category>Algebra</category>
         
         <category>Analysis</category>
+        
+        <category>Test</category>
         
       </item>
     

@@ -21,7 +21,7 @@
 <lastmod>2023-05-03T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/algebra/analysis/2023/05/04/%EC%88%98%ED%95%99-copy.html</loc>
+<loc>http://localhost:4000/algebra/analysis/test/2023/05/04/%EC%88%98%ED%95%99-copy.html</loc>
 <lastmod>2023-05-04T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -60,6 +60,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/category/analysis/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/category/test/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/googlea6ec35648077bd69.html</loc>
