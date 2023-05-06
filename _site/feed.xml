@@ -3,10 +3,10 @@
   <channel>
     <title>Ray 수학</title>
     <description></description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 06 May 2023 12:40:01 +0900</pubDate>
-    <lastBuildDate>Sat, 06 May 2023 12:40:01 +0900</lastBuildDate>
+    <link>https://ray-math.github.io/</link>
+    <atom:link href="https://ray-math.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 07 May 2023 08:37:43 +0900</pubDate>
+    <lastBuildDate>Sun, 07 May 2023 08:37:43 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>&lt;p&gt;asd&lt;/p&gt;
 </description>
         <pubDate>Thu, 04 May 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/algebra/2023/05/04/%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3-1.html</link>
-        <guid isPermaLink="true">http://localhost:4000/algebra/2023/05/04/%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3-1.html</guid>
+        <link>https://ray-math.github.io/algebra/2023/05/04/%ED%85%8C%EC%8A%A4%ED%8A%B8-1.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/algebra/2023/05/04/%ED%85%8C%EC%8A%A4%ED%8A%B8-1.html</guid>
         
         <category>readr</category>
         
@@ -28,8 +28,8 @@
         <title>RSA 암호학의 수학| 이해와 원리</title>
         <description>&lt;p&gt;RSA 암호 체계는 현재 가장 널리 사용되는 암호 체계 중 하나입니다. Ron Rivest, Adi Shamir, 그리고 Leonard Adleman의 이니셜을 따서 이름이 지어진 이 체계는 큰 양의 정수 e, d, m...</description>
         <pubDate>Thu, 04 May 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/algebra/analysis/2023/05/04/%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%A8-copy.html</link>
-        <guid isPermaLink="true">http://localhost:4000/algebra/analysis/2023/05/04/%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%A8-copy.html</guid>
+        <link>https://ray-math.github.io/algebra/analysis/2023/05/04/%EC%88%98%ED%95%99-copy.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/algebra/analysis/2023/05/04/%EC%88%98%ED%95%99-copy.html</guid>
         
         <category>ready</category>
         
@@ -45,8 +45,8 @@
         <description>&lt;p&gt;asd12&lt;/p&gt;
 </description>
         <pubDate>Wed, 03 May 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/algebra/2023/05/03/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy.html</link>
-        <guid isPermaLink="true">http://localhost:4000/algebra/2023/05/03/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy.html</guid>
+        <link>https://ray-math.github.io/algebra/2023/05/03/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/algebra/2023/05/03/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy.html</guid>
         
         <category>tagtest</category>
         
@@ -59,8 +59,8 @@
         <title>RSA 암호학의 수학| 이해와 원리</title>
         <description>&lt;p&gt;RSA 암호 체계는 현재 가장 널리 사용되는 암호 체계 중 하나입니다. Ron Rivest, Adi Shamir, 그리고 Leonard Adleman의 이니셜을 따서 이름이 지어진 이 체계는 큰 양의 정수 e, d, m...</description>
         <pubDate>Tue, 02 May 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/analysis/2023/05/02/%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%A8.html</link>
-        <guid isPermaLink="true">http://localhost:4000/analysis/2023/05/02/%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%A8.html</guid>
+        <link>https://ray-math.github.io/analysis/2023/05/02/%EC%88%98%ED%95%99.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/analysis/2023/05/02/%EC%88%98%ED%95%99.html</guid>
         
         <category>ray</category>
         
@@ -74,8 +74,8 @@
         <description>&lt;p&gt;asdg3g3&lt;/p&gt;
 </description>
         <pubDate>Tue, 02 May 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/algebra/2023/05/02/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy-3.html</link>
-        <guid isPermaLink="true">http://localhost:4000/algebra/2023/05/02/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy-3.html</guid>
+        <link>https://ray-math.github.io/algebra/2023/05/02/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy-3.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/algebra/2023/05/02/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy-3.html</guid>
         
         <category>ready</category>
         
@@ -86,11 +86,11 @@
     
       <item>
         <title>asdasd1</title>
-        <description>&lt;p&gt;asd3gasfsa&lt;/p&gt;
+        <description>&lt;p&gt;asd3gasfs&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 May 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/algebra/2023/05/01/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy-2.html</link>
-        <guid isPermaLink="true">http://localhost:4000/algebra/2023/05/01/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy-2.html</guid>
+        <link>https://ray-math.github.io/algebra/2023/05/01/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy-2.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/algebra/2023/05/01/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy-2.html</guid>
         
         <category>tagtest</category>
         
@@ -103,8 +103,8 @@
         <title>Test</title>
         <description>&lt;p&gt;좋습니다! LaTeX에서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$&lt;/code&gt;와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$&lt;/code&gt; 기호를 사용하여 수식을 표시하는 다양한 예시를 소개해 드리겠습니다.&lt;/p&gt; &lt;ol&gt; &lt;li&gt;인라인 수식 (Inline Math): &lt;ul&gt; &lt;li&gt;예시: The equation $E=mc^2$ shows the relationship between...</description>
         <pubDate>Tue, 18 Apr 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/money/2023/04/18/%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%A8%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3.html</link>
-        <guid isPermaLink="true">http://localhost:4000/money/2023/04/18/%E1%84%89%E1%85%AE%E1%84%92%E1%85%A1%E1%86%A8%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3.html</guid>
+        <link>https://ray-math.github.io/money/2023/04/18/%EC%88%98%ED%95%99%ED%85%8C%EC%8A%A4%ED%8A%B8.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/money/2023/04/18/%EC%88%98%ED%95%99%ED%85%8C%EC%8A%A4%ED%8A%B8.html</guid>
         
         <category>ready</category>
         
