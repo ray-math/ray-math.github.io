@@ -48,11 +48,4 @@ jekyll-archives:
 
 include:
   - _nav
-
-nav:
-  - name: "Youtube"
-    link: /youtube/
-  - name: "Memo"
-    link: /memo/
-  - name: "Math"
-    link: /math/
+  - _posts
