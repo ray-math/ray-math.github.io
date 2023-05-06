@@ -5,9 +5,42 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 06 May 2023 13:43:25 +0900</pubDate>
-    <lastBuildDate>Sat, 06 May 2023 13:43:25 +0900</lastBuildDate>
+    <pubDate>Sat, 06 May 2023 13:46:08 +0900</pubDate>
+    <lastBuildDate>Sat, 06 May 2023 13:46:08 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>asdasd4</title>
+        <description>&lt;p&gt;asdasdas&lt;/p&gt;
+</description>
+        <pubDate>Thu, 04 May 2023 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/algebra/2023/05/04/%ED%85%8C%EC%8A%A4%ED%8A%B8-1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/algebra/2023/05/04/%ED%85%8C%EC%8A%A4%ED%8A%B8-1.html</guid>
+        
+        <category>ready</category>
+        
+        
+        <category>algebra</category>
+        
+      </item>
+    
+      <item>
+        <title>RSA 암호학의 수학| 이해와 원리</title>
+        <description>&lt;p&gt;RSA 암호 체계는 현재 가장 널리 사용되는 암호 체계 중 하나입니다. Ron Rivest, Adi Shamir, 그리고 Leonard Adleman의 이니셜을 따서 이름이 지어진 이 체계는 큰 양의 정수 e, d, m...</description>
+        <pubDate>Thu, 04 May 2023 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/algebra/analysis/test/2023/05/04/%EC%88%98%ED%95%99-copy.html</link>
+        <guid isPermaLink="true">http://localhost:4000/algebra/analysis/test/2023/05/04/%EC%88%98%ED%95%99-copy.html</guid>
+        
+        <category>ray</category>
+        
+        
+        <category>algebra</category>
+        
+        <category>analysis</category>
+        
+        <category>test</category>
+        
+      </item>
     
       <item>
         <title>asdasd4</title>
@@ -58,6 +91,21 @@
       </item>
     
       <item>
+        <title>asdasd3</title>
+        <description>&lt;p&gt;asd12&lt;/p&gt;
+</description>
+        <pubDate>Wed, 03 May 2023 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/algebra/2023/05/03/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy.html</link>
+        <guid isPermaLink="true">http://localhost:4000/algebra/2023/05/03/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy.html</guid>
+        
+        <category>ready</category>
+        
+        
+        <category>algebra</category>
+        
+      </item>
+    
+      <item>
         <title>RSA 암호학의 수학| 이해와 원리</title>
         <description>&lt;p&gt;RSA 암호 체계는 현재 가장 널리 사용되는 암호 체계 중 하나입니다. Ron Rivest, Adi Shamir, 그리고 Leonard Adleman의 이니셜을 따서 이름이 지어진 이 체계는 큰 양의 정수 e, d, m...</description>
         <pubDate>Tue, 02 May 2023 00:00:00 +0900</pubDate>
@@ -68,6 +116,21 @@
         
         
         <category>analysis</category>
+        
+      </item>
+    
+      <item>
+        <title>asdasd2</title>
+        <description>&lt;p&gt;asdg3g3&lt;/p&gt;
+</description>
+        <pubDate>Tue, 02 May 2023 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/algebra/2023/05/02/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy-3.html</link>
+        <guid isPermaLink="true">http://localhost:4000/algebra/2023/05/02/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy-3.html</guid>
+        
+        <category>ray</category>
+        
+        
+        <category>algebra</category>
         
       </item>
     
@@ -98,20 +161,6 @@
         
         
         <category>algebra</category>
-        
-      </item>
-    
-      <item>
-        <title>Test</title>
-        <description>&lt;p&gt;좋습니다! LaTeX에서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$&lt;/code&gt;와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$&lt;/code&gt; 기호를 사용하여 수식을 표시하는 다양한 예시를 소개해 드리겠습니다.&lt;/p&gt; &lt;ol&gt; &lt;li&gt;인라인 수식 (Inline Math): &lt;ul&gt; &lt;li&gt;예시: The equation $E=mc^2$ shows the relationship between...</description>
-        <pubDate>Wed, 19 Apr 2023 04:25:52 +0900</pubDate>
-        <link>http://localhost:4000/money/2023/04/19/%EC%88%98%ED%95%99%ED%85%8C%EC%8A%A4%ED%8A%B8.html</link>
-        <guid isPermaLink="true">http://localhost:4000/money/2023/04/19/%EC%88%98%ED%95%99%ED%85%8C%EC%8A%A4%ED%8A%B8.html</guid>
-        
-        <category>ready</category>
-        
-        
-        <category>money</category>
         
       </item>
     
