@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 06 May 2023 13:00:27 +0900</pubDate>
-    <lastBuildDate>Sat, 06 May 2023 13:00:27 +0900</lastBuildDate>
+    <pubDate>Sat, 06 May 2023 13:19:02 +0900</pubDate>
+    <lastBuildDate>Sat, 06 May 2023 13:19:02 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -17,7 +17,7 @@
         <link>http://localhost:4000/algebra/2023/05/04/%ED%85%8C%EC%8A%A4%ED%8A%B8-1.html</link>
         <guid isPermaLink="true">http://localhost:4000/algebra/2023/05/04/%ED%85%8C%EC%8A%A4%ED%8A%B8-1.html</guid>
         
-        <category>태그테스트</category>
+        <category>ready</category>
         
         
         <category>algebra</category>
@@ -31,14 +31,14 @@
         <link>http://localhost:4000/algebra/analysis/test/2023/05/04/%EC%88%98%ED%95%99-copy.html</link>
         <guid isPermaLink="true">http://localhost:4000/algebra/analysis/test/2023/05/04/%EC%88%98%ED%95%99-copy.html</guid>
         
-        <category>태그테스트</category>
+        <category>ray</category>
         
         
-        <category>Algebra</category>
+        <category>algebra</category>
         
-        <category>Analysis</category>
+        <category>analysis</category>
         
-        <category>Test</category>
+        <category>test</category>
         
       </item>
     
@@ -50,12 +50,10 @@
         <link>http://localhost:4000/algebra/2023/05/03/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy.html</link>
         <guid isPermaLink="true">http://localhost:4000/algebra/2023/05/03/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy.html</guid>
         
-        <category>태그테스트,</category>
-        
-        <category>태그</category>
+        <category>ready</category>
         
         
-        <category>Algebra</category>
+        <category>algebra</category>
         
       </item>
     
@@ -63,13 +61,13 @@
         <title>RSA 암호학의 수학| 이해와 원리</title>
         <description>&lt;p&gt;RSA 암호 체계는 현재 가장 널리 사용되는 암호 체계 중 하나입니다. Ron Rivest, Adi Shamir, 그리고 Leonard Adleman의 이니셜을 따서 이름이 지어진 이 체계는 큰 양의 정수 e, d, m...</description>
         <pubDate>Tue, 02 May 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/%ED%95%B4%EC%84%9D/2023/05/02/%EC%88%98%ED%95%99.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%ED%95%B4%EC%84%9D/2023/05/02/%EC%88%98%ED%95%99.html</guid>
+        <link>http://localhost:4000/analysis/2023/05/02/%EC%88%98%ED%95%99.html</link>
+        <guid isPermaLink="true">http://localhost:4000/analysis/2023/05/02/%EC%88%98%ED%95%99.html</guid>
         
         <category>태그테스트</category>
         
         
-        <category>해석</category>
+        <category>analysis</category>
         
       </item>
     
@@ -81,12 +79,10 @@
         <link>http://localhost:4000/algebra/2023/05/02/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy-3.html</link>
         <guid isPermaLink="true">http://localhost:4000/algebra/2023/05/02/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy-3.html</guid>
         
-        <category>태그테스트</category>
-        
-        <category>태그</category>
+        <category>ray</category>
         
         
-        <category>Algebra</category>
+        <category>algebra</category>
         
       </item>
     
@@ -101,7 +97,7 @@
         <category>태그테스트</category>
         
         
-        <category>Algebra</category>
+        <category>algebra</category>
         
       </item>
     
@@ -112,10 +108,10 @@
         <link>http://localhost:4000/money/2023/04/19/%EC%88%98%ED%95%99%ED%85%8C%EC%8A%A4%ED%8A%B8.html</link>
         <guid isPermaLink="true">http://localhost:4000/money/2023/04/19/%EC%88%98%ED%95%99%ED%85%8C%EC%8A%A4%ED%8A%B8.html</guid>
         
-        <category>준비완료</category>
+        <category>ready</category>
         
         
-        <category>Money</category>
+        <category>money</category>
         
       </item>
     
