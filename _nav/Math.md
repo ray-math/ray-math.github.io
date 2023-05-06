@@ -3,6 +3,8 @@ layout: page
 title: Math
 permalink: /math/
 main_nav: true
+pagination: 
+  enabled: true
 ---
 
 {% assign math_categories = "" | split: "" %}

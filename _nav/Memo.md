@@ -3,6 +3,8 @@ layout: page
 title: Memo
 permalink: /memo/
 main_nav: true
+pagination: 
+  enabled: true
 ---
 
 {% assign memo_categories = "" | split: "" %}
