@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Math
-permalink: /math/
+permalink: /posts/
 main_nav: true
 ---
 

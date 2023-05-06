@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Youtube
-permalink: /youtube/
+permalink: /posts/
 main_nav: true
 ---
 
