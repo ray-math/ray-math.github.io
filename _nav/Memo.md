@@ -5,19 +5,12 @@ permalink: /memo/
 main_nav: true
 ---
 
-{% assign memo_categories = "" | split: "" %}
-{% for post in site.posts %}
-  {% if post.path contains '_posts/Memo' %}
-    {% unless memo_categories contains post.categories[0] %}
-      {% assign memo_categories = memo_categories | push: post.categories[0] %}
-    {% endunless %}
-  {% endif %}
-{% endfor %}
+{% assign target_categories = "essay,money,study" | split: "," %}
 
-{% for category in memo_categories %}
-  {% assign category_posts = site.categories[category] | where_exp: "post", "post.path contains '_posts/Memo'" %}
+{% for category in target_categories %}
+  {% assign category_posts = site.categories[category] %}
   <h3 id="{{category}}">
-    <a href="{{ site.baseurl }}/category/{{ category }}/">{{ category }} ({{ site.categories[category].size }})</a>
+    <a href="{{ site.baseurl }}/category/{{ category }}/">{{ category | capitalize }} ({{ site.categories[category].size }})</a>
   </h3>
   <ul class="posts-list">
   {% for post in category_posts limit:4 %}

@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 06 May 2023 13:19:02 +0900</pubDate>
-    <lastBuildDate>Sat, 06 May 2023 13:19:02 +0900</lastBuildDate>
+    <pubDate>Sat, 06 May 2023 13:21:01 +0900</pubDate>
+    <lastBuildDate>Sat, 06 May 2023 13:21:01 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -94,7 +94,7 @@
         <link>http://localhost:4000/algebra/2023/05/01/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy-2.html</link>
         <guid isPermaLink="true">http://localhost:4000/algebra/2023/05/01/%ED%85%8C%EC%8A%A4%ED%8A%B8-1-copy-2.html</guid>
         
-        <category>태그테스트</category>
+        <category>ray</category>
         
         
         <category>algebra</category>
