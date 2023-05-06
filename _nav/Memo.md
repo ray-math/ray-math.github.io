@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Memo
-permalink: /posts/
+permalink: /memo/
 main_nav: true
 ---
 
