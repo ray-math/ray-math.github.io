@@ -3,18 +3,18 @@
   <channel>
     <title>Ray 수학</title>
     <description></description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 07 May 2023 11:49:48 +0900</pubDate>
-    <lastBuildDate>Sun, 07 May 2023 11:49:48 +0900</lastBuildDate>
+    <link>https://ray-math.github.io/</link>
+    <atom:link href="https://ray-math.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 07 May 2023 11:53:59 +0900</pubDate>
+    <lastBuildDate>Sun, 07 May 2023 11:53:59 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
         <title>RSA 암호학의 수학 | 이해와 원리</title>
         <description>&lt;p&gt;RSA 암호 체계는 현재 가장 널리 사용되는 암호 체계 중 하나입니다. Ron Rivest, Adi Shamir, 그리고 Leonard Adleman의 이니셜을 따서 이름이 지어진 이 체계는 큰 양의 정수 e, d, m...</description>
         <pubDate>Thu, 04 May 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/algebra/2023/05/04/%EC%88%98%ED%95%99-copy.html</link>
-        <guid isPermaLink="true">http://localhost:4000/algebra/2023/05/04/%EC%88%98%ED%95%99-copy.html</guid>
+        <link>https://ray-math.github.io/algebra/2023/05/04/%EC%88%98%ED%95%99-copy.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/algebra/2023/05/04/%EC%88%98%ED%95%99-copy.html</guid>
         
         
         <category>algebra</category>
