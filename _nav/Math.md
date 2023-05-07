@@ -3,21 +3,12 @@ layout: page
 title: Math
 permalink: /math/
 main_nav: true
-pagination: 
-  enabled: true
 ---
 
-{% assign math_categories = "" | split: "" %}
-{% for post in site.posts %}
-  {% if post.path contains '_posts/math' %}
-    {% unless math_categories contains post.categories[0] %}
-      {% assign math_categories = math_categories | push: post.categories[0] %}
-    {% endunless %}
-  {% endif %}
-{% endfor %}
+{% assign target_categories = "algebra,analysis,geometry,school" | split: "," %}
 
-{% for category in math_categories %}
-  {% assign category_posts = site.categories[category] | where_exp: "post", "post.path contains '_posts/math'" %}
+{% for category in target_categories %}
+  {% assign category_posts = site.categories[category] %}
   <h3 id="{{category}}">
     <a href="{{ site.baseurl }}/category/{{ category }}/">{{ category | capitalize }} ({{ site.categories[category].size }})</a>
   </h3>

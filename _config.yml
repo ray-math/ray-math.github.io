@@ -41,18 +41,10 @@ jekyll-archives:
   enabled:
     - categories
     - tags
-  layout: 'archive'
+  layout: archive
   permalinks:
     category: '/category/:name/'
     tag: '/tag/:name/'
 
 include:
   - _nav
-
-nav:
-  - name: "Youtube"
-    link: /youtube/
-  - name: "Memo"
-    link: /memo/
-  - name: "Math"
-    link: /math/
