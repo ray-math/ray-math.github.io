@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4K12VW0MHL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4K12VW0MHL');
+  </script>
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>실시간 수식 변환기 LaTeX to PNG</title>
+  <meta name="description" content="">
+  
+  <meta name="author" content="Ray">
+  <meta name="copyright" content="&copy; Ray 2023">
+  
+
+  <!-- MathJax -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        processEscapes: true,
+      }
+    };
+    </script>
+  <script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-light.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="https://ray-math.github.io/algebra/2023/05/08/laxet.html">
+	<link rel="alternate" type="application/rss+xml" title="Ray 수학" href="https://ray-math.github.io/feed.xml" />
+	
+	<!-- Tooltips -->
+	<script type="text/javascript">
+		window.tooltips = []
+	</script>
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo.png" alt="Ray 수학">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+				
+	
+	<li class="nav-link"><a href="/math/">Math</a>
+	
+
+	
+	<li class="nav-link"><a href="/memo/">Memo</a>
+	
+
+	
+	<li class="nav-link"><a href="/youtube/">Youtube</a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h2 class="title" style="color:#005493;">실시간 수식 변환기 LaTeX to PNG</h2>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">May 8, 2023</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/algebra">Algebra</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content markdown-body">
+  <script>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>실시간 LaTeX 변환기</title>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<style>
+    .input-row {
+      display: flex; align-items: center;
+    }
+
+    .input-label {
+      margin-right: 5px;
+    }
+
+    textarea {
+      width: 100%; max-width: 600px; box-sizing: border-box; font-size: 16px
+    }
+
+    .sample-size,
+    .sample-color {
+      cursor: pointer;
+      display: inline-block;
+      width: 25px; height: 25px; font-size: 16px;
+      border-radius: 25%; margin-right: 3px;
+    }
+
+  #fontSize, #bgColor, #fontColor {
+    width: 75px; margin-right: 10px;
+  }
+  </style>
+
+<p>&lt;/head&gt;</p>
+
+<body>
+  <h2>실시간 LaTeX 변환기 ver 1.0</h2>
+  <textarea id="latexInput" rows="3" placeholder="LaTeX 수식을 입력하세요"></textarea>
+  <br />
+  <div id="latexOutput"></div>
+  <br />
+  <div class="input-row">
+    <label class="input-label" for="fontSize">글자 크기:</label>
+    <input type="text" id="fontSize" value="16" oninput="updateOutputStyle()" />
+    <div>
+      <span class="sample-size" data-size="16" onclick="setSampleSize(this)">16</span> / 
+      <span class="sample-size" data-size="32" onclick="setSampleSize(this)">32</span> / 
+      <span class="sample-size" data-size="48" onclick="setSampleSize(this)">48</span>
+    </div>
+  </div>
+  <div class="input-row">
+    <label class="input-label" for="fontColor">글자 색상:</label>
+    <input type="text" id="fontColor" value="black" onchange="updateOutputStyle()" />
+    <div>
+      <span class="sample-color" data-color="Black" style="background-color: black;" onclick="setSampleColor(this)"></span>
+      <span class="sample-color" data-color="Red" style="background-color: red;" onclick="setSampleColor(this)"></span>
+      <span class="sample-color" data-color="Blue" style="background-color: blue;" onclick="setSampleColor(this)"></span>
+      <span class="sample-color" data-color="Green" style="background-color: green;" onclick="setSampleColor(this)"></span>
+    </div>
+  </div>
+  <div class="input-row">
+    <label class="input-label" for="bgColor">배경 색상:</label>
+    <input type="text" id="bgColor" value="transparent" onchange="updateOutputStyle()" />
+    <div>
+      <span class="sample-color" data-color="transparent" style="background-color: transparent; border: 1px dashed black;" onclick="setSampleBgColor(this)"></span>
+      <span class="sample-color" data-color="white" style="background-color: white; border: 1px solid black;" onclick="setSampleBgColor(this)"></span>
+      <span class="sample-color" data-color="greenyellow" style="background-color: greenyellow;" onclick="setSampleBgColor(this)"></span>
+    </div>
+  </div>
+  <button onclick="exportToPNG()">Export as PNG</button>
+  <br />
+  <h3>History</h3>
+  <div id="history"></div>
+  <script>
+    const latexInput = document.getElementById('latexInput');
+    const latexOutput = document.getElementById('latexOutput');
+    const fontSize = document.getElementById('fontSize');
+    const bgColor = document.getElementById('bgColor');
+    const fontColor = document.getElementById('fontColor');
+    const historyDiv = document.getElementById('history');
+
+    function updateLatex() {
+      const latex = latexInput.value;
+      latexOutput.innerHTML = `$$ ${latex} $$`;
+      MathJax.typesetClear([latexOutput]);
+      MathJax.typesetPromise([latexOutput]).then(() => updateOutputStyle()).catch((err) => console.log(err));
+    }
+
+    latexInput.addEventListener('input', updateLatex);
+
+    function updateOutputStyle() {
+      const svgElement = latexOutput.querySelector('svg');
+      if (svgElement) {
+        svgElement.style.fontSize = fontSize.value + 'px';
+        svgElement.style.backgroundColor = bgColor.value;
+        svgElement.querySelectorAll('g')[0].style.fill = fontColor.value;
+      }
+    }
+
+    function setSampleSize(element) {
+      const size = element.getAttribute('data-size');
+      fontSize.value = size;
+      updateOutputStyle();
+    }
+
+    function setSampleBgColor(element) {
+      const color = element.getAttribute('data-color');
+      bgColor.value = color;
+      updateOutputStyle();
+    }
+
+    function setSampleColor(element) {
+      const color = element.getAttribute('data-color');
+      fontColor.value = color;
+      updateOutputStyle();
+    }
+
+    function svgToPng(svgElement) {
+      return new Promise((resolve, reject) => {
+        const svg = svgElement.cloneNode(true);
+        const svgBlob = new Blob([svg.outerHTML], { type: 'image/svg+xml;charset=utf-8' });
+        const svgURL = URL.createObjectURL(svgBlob);
+        const img = new Image();
+        img.src = svgURL;
+
+        img.onload = () => {
+          const canvas = document.createElement('canvas');
+          canvas.width = img.width;
+          canvas.height = img.height;
+          const ctx = canvas.getContext('2d');
+          ctx.drawImage(img, 0, 0);
+          URL.revokeObjectURL(svgURL);
+          resolve(canvas.toDataURL('image/png'));
+        };
+
+        img.onerror = (error) => {
+          reject(error);
+        };
+      });
+    }
+
+    async function exportToPNG() {
+      const svgElement = latexOutput.querySelector('svg');
+      if (!svgElement) {
+        alert('수식을 먼저 입력해주세요.');
+        return;
+      }
+      addToHistory(latexInput.value);
+      const pngDataUrl = await svgToPng(svgElement);
+      const link = document.createElement('a');
+      link.download = latexInput.value + '.png';
+      link.href = pngDataUrl;
+      link.click();
+    }
+
+    function addToHistory(latex) {
+      const entry = document.createElement('div');
+      entry.textContent = latex;
+      entry.classList.add('history-entry');
+      entry.addEventListener('click', () => {
+        latexInput.value = latex;
+        updateLatex();
+      });
+      historyDiv.appendChild(entry);
+    }
+  </script>
+</body>
+
+<p>&lt;/html&gt;
+&lt;/script&gt;</p>
+
+</article>
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <a href="https://www.youtube.com/@ray_math" class="footer-heading" style="font-size: 18px; font-weight: bold;">Ray 수학</a>
+    
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+<script src="//unpkg.com/popper.js@1"></script>
+<script src="//unpkg.com/tippy.js@5"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+
+	// Enable tooltips via Tippy.js
+	if (Array.isArray(window.tooltips)) {
+		window.tooltips.forEach(function(tooltip) {
+			var selector = tooltip[0];
+			var config = tooltip[1];
+			tippy(selector, config);
+		})
+	}
+});
+
+</script>
+
+
+
+
+
+
+  </body>
+
+</html>
