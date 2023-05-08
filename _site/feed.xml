@@ -5,19 +5,19 @@
     <description></description>
     <link>https://ray-math.github.io/</link>
     <atom:link href="https://ray-math.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 May 2023 16:14:33 +0900</pubDate>
-    <lastBuildDate>Mon, 08 May 2023 16:14:33 +0900</lastBuildDate>
+    <pubDate>Mon, 08 May 2023 16:23:38 +0900</pubDate>
+    <lastBuildDate>Mon, 08 May 2023 16:23:38 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
-        <title>실시간 수식 변환기 LaTeX to PNG</title>
-        <description>&lt;script&gt; &lt;!DOCTYPE html&gt; &lt;html lang=&quot;ko&quot;&gt; &lt;head&gt; &lt;meta charset=&quot;UTF-8&quot;&gt; &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt; &lt;title&gt;실시간 LaTeX 변환기&lt;/title&gt; &lt;script type=&quot;text/javascript&quot; id=&quot;MathJax-script&quot; async src=&quot;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js&quot;&gt;&lt;/script&gt; &lt;style&gt; .input-row { display: flex; align-items: center; } .input-label {...</description>
+        <title>실시간 수식 변환기 | LaTeX to PNG</title>
+        <description>&lt;!DOCTYPE html&gt; &lt;html lang=&quot;ko&quot;&gt; &lt;head&gt; &lt;meta charset=&quot;UTF-8&quot;&gt; &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt; &lt;title&gt;실시간 LaTeX 변환기&lt;/title&gt; &lt;script type=&quot;text/javascript&quot; id=&quot;MathJax-script&quot; async src=&quot;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js&quot;&gt;&lt;/script&gt; &lt;style&gt; .input-row { display: flex; align-items: center; } .input-label { margin-right:...</description>
         <pubDate>Mon, 08 May 2023 00:00:00 +0900</pubDate>
-        <link>https://ray-math.github.io/algebra/2023/05/08/laxet.html</link>
-        <guid isPermaLink="true">https://ray-math.github.io/algebra/2023/05/08/laxet.html</guid>
+        <link>https://ray-math.github.io/study/2023/05/08/latex.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/study/2023/05/08/latex.html</guid>
         
         
-        <category>algebra</category>
+        <category>study</category>
         
       </item>
     
