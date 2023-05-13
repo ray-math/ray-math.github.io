@@ -5,7 +5,7 @@ permalink: /math/
 main_nav: true
 ---
 
-{% assign target_categories = "algebra,analysis,geometry,school" | split: "," %}
+{% assign target_categories = "algebra,analysis,geometry,school,articles" | split: "," %}
 
 {% for category in target_categories %}
   {% assign category_posts = site.categories[category] %}
