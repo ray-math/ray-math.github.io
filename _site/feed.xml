@@ -3,18 +3,18 @@
   <channel>
     <title>Ray 수학</title>
     <description></description>
-    <link>https://ray-math.github.io/</link>
-    <atom:link href="https://ray-math.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 May 2023 17:54:29 +0900</pubDate>
-    <lastBuildDate>Wed, 17 May 2023 17:54:29 +0900</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 17 May 2023 17:56:10 +0900</pubDate>
+    <lastBuildDate>Wed, 17 May 2023 17:56:10 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
         <title>세상을 바꾼 17가지 방정식 - 2. 로그</title>
         <description>&lt;h2 id=&quot;1-로그의-역사&quot;&gt;1. 로그의 역사&lt;/h2&gt; &lt;p&gt;우리가 수학을 공부하면서 반드시 접하게 되는 개념 중 하나가 바로 &lt;strong&gt;로그(logarithm)&lt;/strong&gt;입니다. 로그는 1614년에 존 네페르(John Napier)에 의해 처음 소개되었습니다. 로그는 로가리듬(logarithm)의 줄임말로 각각 ‘비율’과 ‘수’를 의미하는...</description>
         <pubDate>Wed, 17 May 2023 00:00:00 +0900</pubDate>
-        <link>https://ray-math.github.io/script/2023/05/17/%E1%84%89%E1%85%A6%E1%84%89%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AF-%E1%84%87%E1%85%A1%E1%84%81%E1%85%AE%E1%86%AB-17%E1%84%80%E1%85%A1%E1%84%8C%E1%85%B5-%E1%84%87%E1%85%A1%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8-2.-%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3-copy.html</link>
-        <guid isPermaLink="true">https://ray-math.github.io/script/2023/05/17/%E1%84%89%E1%85%A6%E1%84%89%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AF-%E1%84%87%E1%85%A1%E1%84%81%E1%85%AE%E1%86%AB-17%E1%84%80%E1%85%A1%E1%84%8C%E1%85%B5-%E1%84%87%E1%85%A1%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8-2.-%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3-copy.html</guid>
+        <link>http://localhost:4000/scripts/2023/05/17/%E1%84%89%E1%85%A6%E1%84%89%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AF-%E1%84%87%E1%85%A1%E1%84%81%E1%85%AE%E1%86%AB-17%E1%84%80%E1%85%A1%E1%84%8C%E1%85%B5-%E1%84%87%E1%85%A1%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8-2.-%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3-copy.html</link>
+        <guid isPermaLink="true">http://localhost:4000/scripts/2023/05/17/%E1%84%89%E1%85%A6%E1%84%89%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AF-%E1%84%87%E1%85%A1%E1%84%81%E1%85%AE%E1%86%AB-17%E1%84%80%E1%85%A1%E1%84%8C%E1%85%B5-%E1%84%87%E1%85%A1%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8-2.-%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3-copy.html</guid>
         
         <category>로그,</category>
         
@@ -45,7 +45,7 @@
         <category>밑</category>
         
         
-        <category>script</category>
+        <category>scripts</category>
         
       </item>
     
@@ -53,8 +53,8 @@
         <title>푸리에 분석의 이해</title>
         <description>&lt;h2 id=&quot;푸리에-분석의-등장-배경&quot;&gt;푸리에 분석의 등장 배경&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;푸리에 분석&lt;/strong&gt;은 그 이름에서 알 수 있듯이, 프랑스의 수학자 조세프 푸리에(Joseph Fourier)가 개발한 방법론입니다. 그의 이름을 딴 이 방법은 그가 1807년에 제시한 &lt;strong&gt;푸리에 시리즈&lt;/strong&gt; 개념에서...</description>
         <pubDate>Wed, 17 May 2023 00:00:00 +0900</pubDate>
-        <link>https://ray-math.github.io/analysis/2023/05/17/%E1%84%91%E1%85%AE%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A6-%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8.html</link>
-        <guid isPermaLink="true">https://ray-math.github.io/analysis/2023/05/17/%E1%84%91%E1%85%AE%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A6-%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8.html</guid>
+        <link>http://localhost:4000/analysis/2023/05/17/%E1%84%91%E1%85%AE%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A6-%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8.html</link>
+        <guid isPermaLink="true">http://localhost:4000/analysis/2023/05/17/%E1%84%91%E1%85%AE%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A6-%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8.html</guid>
         
         
         <category>analysis</category>
@@ -65,11 +65,11 @@
         <title>샤워실에서 노래 부르기 | 왜 우리의 목소리가 더 좋게 들릴까?</title>
         <description>&lt;p&gt;여러분들은 샤워실에서 노래를 부르시나요? 아마도 샤워하면서 노래를 부르면 목소리가 원래보다 더 좋게 느끼셨을 것입니다. 왜 &lt;strong&gt;샤워를 하면 우리의 목소리가 왜 그렇게 좋게 들리는지&lt;/strong&gt; 그 비밀을 공개하겠습니다. 우선 그 이유를 알기...</description>
         <pubDate>Tue, 16 May 2023 00:00:00 +0900</pubDate>
-        <link>https://ray-math.github.io/script/2023/05/16/%E1%84%89%E1%85%A3%E1%84%8B%E1%85%AF%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-%E1%84%82%E1%85%A9%E1%84%85%E1%85%A2-%E1%84%87%E1%85%AE%E1%84%85%E1%85%B3%E1%84%80%E1%85%B5.html</link>
-        <guid isPermaLink="true">https://ray-math.github.io/script/2023/05/16/%E1%84%89%E1%85%A3%E1%84%8B%E1%85%AF%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-%E1%84%82%E1%85%A9%E1%84%85%E1%85%A2-%E1%84%87%E1%85%AE%E1%84%85%E1%85%B3%E1%84%80%E1%85%B5.html</guid>
+        <link>http://localhost:4000/scripts/2023/05/16/%E1%84%89%E1%85%A3%E1%84%8B%E1%85%AF%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-%E1%84%82%E1%85%A9%E1%84%85%E1%85%A2-%E1%84%87%E1%85%AE%E1%84%85%E1%85%B3%E1%84%80%E1%85%B5.html</link>
+        <guid isPermaLink="true">http://localhost:4000/scripts/2023/05/16/%E1%84%89%E1%85%A3%E1%84%8B%E1%85%AF%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-%E1%84%82%E1%85%A9%E1%84%85%E1%85%A2-%E1%84%87%E1%85%AE%E1%84%85%E1%85%B3%E1%84%80%E1%85%B5.html</guid>
         
         
-        <category>script</category>
+        <category>scripts</category>
         
       </item>
     
@@ -77,8 +77,8 @@
         <title>다각형의 무게중심</title>
         <description>&lt;h2 id=&quot;다각형의-무게중심이란&quot;&gt;다각형의 무게중심이란?&lt;/h2&gt; &lt;p&gt;삼각형의 무게중심이란, 삼각형을 무게를 가지는 하나의 물체로 봤을 때 삼각형이 기울거나 쓰러지지않고 완전히 평형을 이루게 되는 지점을 의미합니다. 수학적으로는 삼각형의 세 중선의 교점으로 구하죠. 고등학교 1학년에 올라오면 좌표평면 위에...</description>
         <pubDate>Sat, 13 May 2023 00:00:00 +0900</pubDate>
-        <link>https://ray-math.github.io/school/2023/05/13/%EB%AC%B4%EA%B2%8C%EC%A4%91%EC%8B%AC.html</link>
-        <guid isPermaLink="true">https://ray-math.github.io/school/2023/05/13/%EB%AC%B4%EA%B2%8C%EC%A4%91%EC%8B%AC.html</guid>
+        <link>http://localhost:4000/school/2023/05/13/%EB%AC%B4%EA%B2%8C%EC%A4%91%EC%8B%AC.html</link>
+        <guid isPermaLink="true">http://localhost:4000/school/2023/05/13/%EB%AC%B4%EA%B2%8C%EC%A4%91%EC%8B%AC.html</guid>
         
         
         <category>school</category>
@@ -89,11 +89,11 @@
         <title>세상을 바꾼 17가지 방정식 - 1. 피타고라스 정리</title>
         <description>&lt;h2 id=&quot;피타고라스의-역사와-중요성&quot;&gt;피타고라스의 역사와 중요성&lt;/h2&gt; &lt;p&gt;대부분의 사람들이 대표적인 수학자로 피타고라스를 생각합니다. 개인적으로 수학관련 과제를 학생들에게 숙제로 내면 항상 나오는 주제라서 썩 좋아하지는 않습니다. 하지만 이 정리가 매번 나오는 것은 그만큼 중요하기...</description>
         <pubDate>Tue, 09 May 2023 00:00:00 +0900</pubDate>
-        <link>https://ray-math.github.io/script/2023/05/09/%EC%84%B8%EC%83%81%EC%9D%84-%EB%B0%94%EA%BE%BC-17%EA%B0%80%EC%A7%80-%EB%B0%A9%EC%A0%95%EC%8B%9D-1.-%ED%94%BC%ED%83%80%EA%B3%A0%EB%9D%BC%EC%8A%A4-%EC%A0%95%EB%A6%AC.html</link>
-        <guid isPermaLink="true">https://ray-math.github.io/script/2023/05/09/%EC%84%B8%EC%83%81%EC%9D%84-%EB%B0%94%EA%BE%BC-17%EA%B0%80%EC%A7%80-%EB%B0%A9%EC%A0%95%EC%8B%9D-1.-%ED%94%BC%ED%83%80%EA%B3%A0%EB%9D%BC%EC%8A%A4-%EC%A0%95%EB%A6%AC.html</guid>
+        <link>http://localhost:4000/scripts/2023/05/09/%EC%84%B8%EC%83%81%EC%9D%84-%EB%B0%94%EA%BE%BC-17%EA%B0%80%EC%A7%80-%EB%B0%A9%EC%A0%95%EC%8B%9D-1.-%ED%94%BC%ED%83%80%EA%B3%A0%EB%9D%BC%EC%8A%A4-%EC%A0%95%EB%A6%AC.html</link>
+        <guid isPermaLink="true">http://localhost:4000/scripts/2023/05/09/%EC%84%B8%EC%83%81%EC%9D%84-%EB%B0%94%EA%BE%BC-17%EA%B0%80%EC%A7%80-%EB%B0%A9%EC%A0%95%EC%8B%9D-1.-%ED%94%BC%ED%83%80%EA%B3%A0%EB%9D%BC%EC%8A%A4-%EC%A0%95%EB%A6%AC.html</guid>
         
         
-        <category>script</category>
+        <category>scripts</category>
         
       </item>
     
@@ -101,8 +101,8 @@
         <title>블록 함수 근사를 이용한 정규분포</title>
         <description>&lt;h2 id=&quot;확률과-통계에-무지한-사람들&quot;&gt;확률과 통계에 무지한 사람들&lt;/h2&gt; &lt;p&gt;현재 세상은 확률과 통계 과학이 지배하는 것으로 보입니다. &lt;strong&gt;빅 데이터&lt;/strong&gt;는 과학 연구의 표준이 되었으며, 위성 및 실험 시설에서 연구 센터로 테라바이트 단위의 데이터가 흘러들어오고 슈퍼컴퓨터로...</description>
         <pubDate>Tue, 09 May 2023 00:00:00 +0900</pubDate>
-        <link>https://ray-math.github.io/articles/2023/05/09/%EB%B8%94%EB%A1%9D-%ED%95%A8%EC%88%98-%EA%B7%BC%EC%82%AC%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%A0%95%EA%B7%9C%EB%B6%84%ED%8F%AC.html</link>
-        <guid isPermaLink="true">https://ray-math.github.io/articles/2023/05/09/%EB%B8%94%EB%A1%9D-%ED%95%A8%EC%88%98-%EA%B7%BC%EC%82%AC%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%A0%95%EA%B7%9C%EB%B6%84%ED%8F%AC.html</guid>
+        <link>http://localhost:4000/articles/2023/05/09/%EB%B8%94%EB%A1%9D-%ED%95%A8%EC%88%98-%EA%B7%BC%EC%82%AC%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%A0%95%EA%B7%9C%EB%B6%84%ED%8F%AC.html</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2023/05/09/%EB%B8%94%EB%A1%9D-%ED%95%A8%EC%88%98-%EA%B7%BC%EC%82%AC%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%A0%95%EA%B7%9C%EB%B6%84%ED%8F%AC.html</guid>
         
         
         <category>articles</category>
@@ -113,8 +113,8 @@
         <title>실시간 수식 변환기 | LaTeX to PNG</title>
         <description>&lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;meta charset=&quot;UTF-8&quot;&gt; &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt; &lt;title&gt;실시간 LaTeX 변환기&lt;/title&gt; &lt;script src=&quot;https://polyfill.io/v3/polyfill.min.js?features=es6&quot;&gt;&lt;/script&gt; &lt;script type=&quot;text/javascript&quot; id=&quot;MathJax-script&quot; async src=&quot;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js&quot;&gt;&lt;/script&gt; &lt;style&gt; .input-row { display: flex; align-items: center; } .input-label {...</description>
         <pubDate>Mon, 08 May 2023 00:00:00 +0900</pubDate>
-        <link>https://ray-math.github.io/study/2023/05/08/latex.html</link>
-        <guid isPermaLink="true">https://ray-math.github.io/study/2023/05/08/latex.html</guid>
+        <link>http://localhost:4000/study/2023/05/08/latex.html</link>
+        <guid isPermaLink="true">http://localhost:4000/study/2023/05/08/latex.html</guid>
         
         
         <category>study</category>
@@ -125,8 +125,8 @@
         <title>RSA 암호학의 수학 | 이해와 원리</title>
         <description>&lt;p&gt;RSA 암호 체계는 현재 가장 널리 사용되는 암호 체계 중 하나입니다. Ron Rivest, Adi Shamir, 그리고 Leonard Adleman의 이니셜을 따서 이름이 지어진 이 체계는 큰 양의 정수 e, d, m...</description>
         <pubDate>Thu, 04 May 2023 00:00:00 +0900</pubDate>
-        <link>https://ray-math.github.io/algebra/2023/05/04/RSA-%EC%95%94%ED%98%B8.html</link>
-        <guid isPermaLink="true">https://ray-math.github.io/algebra/2023/05/04/RSA-%EC%95%94%ED%98%B8.html</guid>
+        <link>http://localhost:4000/algebra/2023/05/04/RSA-%EC%95%94%ED%98%B8.html</link>
+        <guid isPermaLink="true">http://localhost:4000/algebra/2023/05/04/RSA-%EC%95%94%ED%98%B8.html</guid>
         
         
         <category>algebra</category>
