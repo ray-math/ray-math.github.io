@@ -5,7 +5,7 @@ permalink: /youtube/
 main_nav: true
 ---
 
-{% assign target_categories = "script,shorts" | split: "," %}
+{% assign target_categories = "scripts,shorts" | split: "," %}
 
 {% for category in target_categories %}
   {% assign category_posts = site.categories[category] %}
