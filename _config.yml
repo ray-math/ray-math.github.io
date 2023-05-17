@@ -48,5 +48,3 @@ jekyll-archives:
 
 include:
   - _nav
-
-mathjax: true
