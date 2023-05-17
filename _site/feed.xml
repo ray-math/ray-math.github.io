@@ -5,44 +5,16 @@
     <description></description>
     <link>https://ray-math.github.io/</link>
     <atom:link href="https://ray-math.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 May 2023 18:13:52 +0900</pubDate>
-    <lastBuildDate>Wed, 17 May 2023 18:13:52 +0900</lastBuildDate>
+    <pubDate>Wed, 17 May 2023 19:50:52 +0900</pubDate>
+    <lastBuildDate>Wed, 17 May 2023 19:50:52 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
-        <title>세상을 바꾼 17가지 방정식 - 2. 로그</title>
-        <description>&lt;h2 id=&quot;1-로그의-역사&quot;&gt;1. 로그의 역사&lt;/h2&gt; &lt;p&gt;우리가 수학을 공부하면서 반드시 접하게 되는 개념 중 하나가 바로 &lt;strong&gt;로그(logarithm)&lt;/strong&gt;입니다. 로그는 1614년에 존 네페르(John Napier)에 의해 처음 소개되었습니다. 로그는 로가리듬(logarithm)의 줄임말로 각각 ‘비율’과 ‘수’를 의미하는...</description>
+        <title>샤워하면서 노래 부르기 | 왜 우리의 목소리가 더 좋게 들릴까?</title>
+        <description>&lt;p&gt;여러분들은 샤워실에서 노래를 부르시나요? 아마도 샤워하면서 노래를 부르면 목소리가 원래보다 더 좋게 느끼셨을 것입니다. 왜 &lt;strong&gt;샤워를 하면 우리의 목소리가 왜 그렇게 좋게 들리는지&lt;/strong&gt; 그 비밀을 공개하겠습니다. 우선 그 이유를 알기...</description>
         <pubDate>Wed, 17 May 2023 00:00:00 +0900</pubDate>
-        <link>https://ray-math.github.io/scripts/2023/05/17/%E1%84%89%E1%85%A6%E1%84%89%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AF-%E1%84%87%E1%85%A1%E1%84%81%E1%85%AE%E1%86%AB-17%E1%84%80%E1%85%A1%E1%84%8C%E1%85%B5-%E1%84%87%E1%85%A1%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8-2.-%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3-copy.html</link>
-        <guid isPermaLink="true">https://ray-math.github.io/scripts/2023/05/17/%E1%84%89%E1%85%A6%E1%84%89%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AF-%E1%84%87%E1%85%A1%E1%84%81%E1%85%AE%E1%86%AB-17%E1%84%80%E1%85%A1%E1%84%8C%E1%85%B5-%E1%84%87%E1%85%A1%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8-2.-%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3-copy.html</guid>
-        
-        <category>로그,</category>
-        
-        <category>상용로그,</category>
-        
-        <category>로그의</category>
-        
-        <category>역사,</category>
-        
-        <category>로그의</category>
-        
-        <category>성질,</category>
-        
-        <category>로그의</category>
-        
-        <category>활용,</category>
-        
-        <category>리히터규모,</category>
-        
-        <category>데시벨,</category>
-        
-        <category>밝기등급,</category>
-        
-        <category>pH척도,</category>
-        
-        <category>로그의</category>
-        
-        <category>밑</category>
+        <link>https://ray-math.github.io/scripts/2023/05/17/%EC%83%A4%EC%9B%8C%EC%8B%A4%EC%97%90%EC%84%9C-%EB%85%B8%EB%9E%98-%EB%B6%80%EB%A5%B4%EA%B8%B0.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/scripts/2023/05/17/%EC%83%A4%EC%9B%8C%EC%8B%A4%EC%97%90%EC%84%9C-%EB%85%B8%EB%9E%98-%EB%B6%80%EB%A5%B4%EA%B8%B0.html</guid>
         
         
         <category>scripts</category>
@@ -52,9 +24,9 @@
       <item>
         <title>푸리에 분석의 이해</title>
         <description>&lt;h2 id=&quot;푸리에-분석의-등장-배경&quot;&gt;푸리에 분석의 등장 배경&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;푸리에 분석&lt;/strong&gt;은 그 이름에서 알 수 있듯이, 프랑스의 수학자 조세프 푸리에(Joseph Fourier)가 개발한 방법론입니다. 그의 이름을 딴 이 방법은 그가 1807년에 제시한 &lt;strong&gt;푸리에 시리즈&lt;/strong&gt; 개념에서...</description>
-        <pubDate>Wed, 17 May 2023 00:00:00 +0900</pubDate>
-        <link>https://ray-math.github.io/analysis/2023/05/17/%E1%84%91%E1%85%AE%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A6-%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8.html</link>
-        <guid isPermaLink="true">https://ray-math.github.io/analysis/2023/05/17/%E1%84%91%E1%85%AE%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A6-%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8.html</guid>
+        <pubDate>Tue, 16 May 2023 00:00:00 +0900</pubDate>
+        <link>https://ray-math.github.io/analysis/2023/05/16/%ED%91%B8%EB%A6%AC%EC%97%90-%EB%B6%84%EC%84%9D.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/analysis/2023/05/16/%ED%91%B8%EB%A6%AC%EC%97%90-%EB%B6%84%EC%84%9D.html</guid>
         
         
         <category>analysis</category>
@@ -62,11 +34,25 @@
       </item>
     
       <item>
-        <title>샤워실에서 노래 부르기 | 왜 우리의 목소리가 더 좋게 들릴까?</title>
-        <description>&lt;p&gt;여러분들은 샤워실에서 노래를 부르시나요? 아마도 샤워하면서 노래를 부르면 목소리가 원래보다 더 좋게 느끼셨을 것입니다. 왜 &lt;strong&gt;샤워를 하면 우리의 목소리가 왜 그렇게 좋게 들리는지&lt;/strong&gt; 그 비밀을 공개하겠습니다. 우선 그 이유를 알기...</description>
-        <pubDate>Tue, 16 May 2023 00:00:00 +0900</pubDate>
-        <link>https://ray-math.github.io/scripts/2023/05/16/%E1%84%89%E1%85%A3%E1%84%8B%E1%85%AF%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-%E1%84%82%E1%85%A9%E1%84%85%E1%85%A2-%E1%84%87%E1%85%AE%E1%84%85%E1%85%B3%E1%84%80%E1%85%B5.html</link>
-        <guid isPermaLink="true">https://ray-math.github.io/scripts/2023/05/16/%E1%84%89%E1%85%A3%E1%84%8B%E1%85%AF%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-%E1%84%82%E1%85%A9%E1%84%85%E1%85%A2-%E1%84%87%E1%85%AE%E1%84%85%E1%85%B3%E1%84%80%E1%85%B5.html</guid>
+        <title>세상을 바꾼 17가지 방정식 - 2. 로그</title>
+        <description>&lt;h2 id=&quot;1-로그의-역사&quot;&gt;1. 로그의 역사&lt;/h2&gt; &lt;p&gt;우리가 수학을 공부하면서 반드시 접하게 되는 개념 중 하나가 바로 &lt;strong&gt;로그(logarithm)&lt;/strong&gt;입니다. 로그는 1614년에 존 네페르(John Napier)에 의해 처음 소개되었습니다. 로그는 로가리듬(logarithm)의 줄임말로 각각 ‘비율’과 ‘수’를 의미하는...</description>
+        <pubDate>Mon, 15 May 2023 00:00:00 +0900</pubDate>
+        <link>https://ray-math.github.io/scripts/2023/05/15/%EC%84%B8%EC%83%81%EC%9D%84-%EB%B0%94%EA%BE%BC-17%EA%B0%80%EC%A7%80-%EB%B0%A9%EC%A0%95%EC%8B%9D-2.-%EB%A1%9C%EA%B7%B8.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/scripts/2023/05/15/%EC%84%B8%EC%83%81%EC%9D%84-%EB%B0%94%EA%BE%BC-17%EA%B0%80%EC%A7%80-%EB%B0%A9%EC%A0%95%EC%8B%9D-2.-%EB%A1%9C%EA%B7%B8.html</guid>
+        
+        <category>로그</category>
+        
+        <category>상용로그</category>
+        
+        <category>리히터규모</category>
+        
+        <category>데시벨</category>
+        
+        <category>밝기등급</category>
+        
+        <category>pH척도</category>
+        
+        <category>밑</category>
         
         
         <category>scripts</category>
@@ -94,18 +80,6 @@
         
         
         <category>scripts</category>
-        
-      </item>
-    
-      <item>
-        <title>블록 함수 근사를 이용한 정규분포</title>
-        <description>&lt;h2 id=&quot;확률과-통계에-무지한-사람들&quot;&gt;확률과 통계에 무지한 사람들&lt;/h2&gt; &lt;p&gt;현재 세상은 확률과 통계 과학이 지배하는 것으로 보입니다. &lt;strong&gt;빅 데이터&lt;/strong&gt;는 과학 연구의 표준이 되었으며, 위성 및 실험 시설에서 연구 센터로 테라바이트 단위의 데이터가 흘러들어오고 슈퍼컴퓨터로...</description>
-        <pubDate>Tue, 09 May 2023 00:00:00 +0900</pubDate>
-        <link>https://ray-math.github.io/articles/2023/05/09/%EB%B8%94%EB%A1%9D-%ED%95%A8%EC%88%98-%EA%B7%BC%EC%82%AC%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%A0%95%EA%B7%9C%EB%B6%84%ED%8F%AC.html</link>
-        <guid isPermaLink="true">https://ray-math.github.io/articles/2023/05/09/%EB%B8%94%EB%A1%9D-%ED%95%A8%EC%88%98-%EA%B7%BC%EC%82%AC%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%A0%95%EA%B7%9C%EB%B6%84%ED%8F%AC.html</guid>
-        
-        
-        <category>articles</category>
         
       </item>
     

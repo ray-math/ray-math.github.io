@@ -5,8 +5,14 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate-v2
 
+include:
+  - _nav
+
 exclude:
   - "/vendor/"
+  
+timezone: Asia/Seoul
+future: true
 
 # Site settings
 title: Ray 수학
@@ -45,6 +51,3 @@ jekyll-archives:
   permalinks:
     category: '/category/:name/'
     tag: '/tag/:name/'
-
-include:
-  - _nav
