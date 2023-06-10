@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4K12VW0MHL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4K12VW0MHL');
+  </script>
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>세상을 바꾼 17가지 방정식 - 3. 미분</title>
+  <meta name="description" content="">
+  
+  <meta name="author" content="Ray">
+  <meta name="copyright" content="&copy; Ray 2023">
+  
+
+  <!-- MathJax -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        processEscapes: true,
+      }
+    };
+    </script>
+  <script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-light.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="https://ray-math.github.io/scripts/2023/05/24/%EC%84%B8%EC%83%81%EC%9D%84-%EB%B0%94%EA%BE%BC-17%EA%B0%80%EC%A7%80-%EB%B0%A9%EC%A0%95%EC%8B%9D-3.-%EB%AF%B8%EB%B6%84.html">
+	<link rel="alternate" type="application/rss+xml" title="Ray 수학" href="https://ray-math.github.io/feed.xml" />
+	
+	<!-- Tooltips -->
+	<script type="text/javascript">
+		window.tooltips = []
+	</script>
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo.png" alt="Ray 수학">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+				
+	
+	<li class="nav-link"><a href="/math/">Math</a>
+	
+
+	
+	<li class="nav-link"><a href="/memo/">Memo</a>
+	
+
+	
+	<li class="nav-link"><a href="/youtube/">Youtube</a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h2 class="title" style="color:#005493;">세상을 바꾼 17가지 방정식 - 3. 미분</h2>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">May 24, 2023</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/scripts">Scripts</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content markdown-body">
+  
+<p>이 곡선에서의 기울기를 찾을 수 있나요?</p>
+
+<p>뉴턴의 두 번째 법칙은 가속도의 법칙이라고도 합니다. 이 법칙은 다음과 같이 표현됩니다:</p>
+
+<p>“물체에 작용하는 힘은 그 물체의 질량과 가속도의 곱과 같다.”</p>
+
+<p>이는 $F = ma$ 로 표현되며, 여기서 F는 힘, m은 질량, a는 가속도입니다. 바로 이 부분이 이분의 개념과 연관이 있습니다. 가속도의 법칙과 미분의 관계를 이해하려면, 가속도가 무엇인지를 먼저 이해해야 합니다. 가속도는 속력의 변화율을 나타내는 개념입니다. 즉, 가속도는 속력이 시간에 따라 얼마나 변하는지를 나타냅니다.</p>
+
+<h2 id="뉴턴과-라이프니츠의-미적분">뉴턴과 라이프니츠의 미적분</h2>
+<p>뉴턴이 미적분학을 발명하게 된 배경은 그의 과학적인 문제 해결 과정에서 시작되었습니다. 그는 물리학적 현상, 특히 운동에 대한 자연의 법칙을 찾아내려는 노력 속에서 미적분학의 필요성을 느꼈습니다. 당시 그는 물체의 속도나 위치가 시간에 따라 어떻게 변하는지를 정확히 설명하고 계산하는 방법이 필요했지만 그런 방법은 당시에는 존재하지 않았습니다. 이런 문제를 해결하기 위해 뉴턴은 ‘플럭시온(fluXion)’이라는 방법을 개발하였고, 이는 나중에 우리가 지금 알고 있는 미적분학으로 발전하게 되었습니다.</p>
+
+<p>반면에 라이프니츠는 사회, 철학, 언어학, 법학, 역사학, 그리고 기술까지 다양한 분야에서 지식을 탐구했습니다. 그의 연구의 주요 목표 중 하나는 모든 학문의 지식을 통합하고 이해하는 보편적인 언어와 방법론을 찾는 것이었습니다. 이러한 추구가 그를 수학의 세계로 인도했고, 그는 수학이 이러한 보편적 언어가 될 수 있음을 깨달았습니다. 이 과정에서 그는 미분과 적분을 발견하게 되었고, 미적분학의 기본 이론인 ‘미분과 적분의 기본 정리’를 정리했습니다.</p>
+
+<p>뉴턴과 라이프니츠가 동시대에 미적분을 발견하게 된것은 사실 피에르 드 페르마의 미적분학 초기 연구 덕분입니다. 페르마는 최대 최소 문제에 대한 접근법을 통해 접선의 개념을 도입하였고, 이 접선의 개념은 뉴턴과 라이프니츠가 미적분학을 발전시키는데 중요한 역할을 하게된거죠. 우리가 교과서에서 배우듯 페르마는 곡선의 특정 지점에서의 기울기를 찾는 방법으로써 접선의 개념을 도입하였습니다. 이는 곡선 위의 한 점 주변의 작은 부분을 곧은 선으로 근사화하는 것을 의미하며, 극 지점에서의 기울기를  구하는 방법을 제공합니다. 뉴턴과 라이프니츠는 페르마의 이 접선 개념을 받아들이고 확장하였습니다. 뉴턴은 ‘플럭시온’ 이론을 개발하였고, 라이프니츠는 ‘차분’ 방법론을 제안하였습니다. 이들 방법론은 모두 곡선의 점에서의 기울기를 계산하려는 페르마의 원래 접근법을 수학적으로 엄밀하게 만든 결과인거죠.</p>
+
+<h2 id="뉴턴의-플럭시온">뉴턴의 플럭시온</h2>
+
+<p><strong>플럭시온(fluxions)</strong>은 아이작 뉴턴이 개발한 수학적 방법으로, 현대의 미분법에 대응되는 개념입니다. 뉴턴은 Fluxion을 어떤 양 $x$ (Fluent라고 불림)의 속도로 정의하고,Fluxion을 변화하는 양의 순간적인 속도 즉, 변화율로 보았습니다. 뉴턴은 Fluent가 “무한히 작은” 시간 $o$ 동안 증가하는 양을 순간이라고 정의했습니다. 따라서 $x$의 순간은 $x + \dot x\cdot o$가 됩니다. 이 뜻은 어떤 방정식이 시간에 따라 변하지 않는 Fluent 인 $x$와 $y$의 관계를 표현한다면 그 방정식은 $x + \dot x\cdot o$와 $y + \dot y\cdot o$관계로 확장 될 수 있다는 것을 의미합니다.</p>
+
+<p>우선 쉬운 예를 들어 뉴턴의 미분을 설명해보겠습니다. $y=x^2$에 대해 $x$가 $x+o$로 증가할 때 즉, 무한소라는 $o$ 만큼의 짧은 시간 동안의 평균 변화율은 다음과 같이 적을 수 있습니다.</p>
+
+\[{ {(x+o)^2-x^2 \over o} } = {{2xo+o^2} \over {o} } = 2x+o\]
+
+<p>이때 $o$는 어떤 수인지는 모릅니다. 다만 $2x+o$라는 변화율은 $o$가 무한소이므로 $0$에 한 없이 가까운 수이기에 변화율은 $2x$에 한 없이 가까울 것입니다. 결론적으로 $o$가 어떤 값인지 몰라도 순간 변화율인 $2x$를 구할 수 있는거죠.</p>
+
+<p>나아가 $y=x^2$에 대해 $x$와 $y$대신 $x + \dot x\cdot o$와 $y + \dot y\cdot o$를 대입해 정리해보겠습니다.</p>
+
+\[y=x^2\]
+
+<p>이므로 $x$와 $y$대신 $x + \dot x\cdot o$와 $y + \dot y\cdot o$를 대입하면</p>
+
+\[y + \dot y\cdot o=(x + \dot x\cdot o)^2\]
+
+<p>입니다. 제곱하여 식을 정리하면</p>
+
+\[y + \dot y\cdot o= x^2 + 2 \dot x\cdot o +o^2\]
+
+<p>입니다. 이때, $y=x^2$이고, 무한소 $o$로 나누어주면</p>
+
+\[\dot y=2x \dot x +o\]
+
+<p>이고, $o$는 무한소이므로</p>
+
+\[\dot y=2x \dot x\]
+
+<p>라는 식을 얻을 수 있습니다. 오늘날에 $\dot y$라는 표현은 $y’$이라는 표현으로 바뀌었습니다.</p>
+
+<h2 id="라이프니츠의-dydx">라이프니츠의 dy/dx</h2>
+
+<p>라이프니츠의 미분법도 큰 차이는 없습니다 다만 무한소를 $o$대신 $dx$라는 표현으로 바꾼 것 뿐이죠. $x$의 작은 변화량을 $dx$라고 하고, 원래의 공식에 $x+dx$, $y+dy$를 대입합니다.</p>
+
+<p>\(y+dy=(x+dx)^2\)
+\(y+dy=x^2+2x\cdot dx+(dx)^2\)
+\(dy=2x\cdot dx + (dx)^2\)
+\({{dy}\over{dx}} = 2x +dx \Rightarrow {{dy}\over{dx}} = 2x\)</p>
+
+<p>이렇게 보면 두 방식은 표기하는 방법만 다를 뿐 같은 연산이고, 그 아이디어마저도 같기에 누가 먼저 미적분을 발견했는가에 대한 논쟁이 있을 수 밖에 없습니다. 어떻게보면 초기 아이디어가 접선을 구한다는 페르마의 아이디어에서 부터 출발했기에 당연한 결과라고 생각합니다.</p>
+
+<h2 id="뉴턴의-프린키피아">뉴턴의 프린키피아</h2>
+<p>라이프니츠 입장에서는 조금 억울한 측면이 있습니다. 앞서 말했듯 이 시기는 미분에 대한 개념이 싹띄우기 시작한 때라 학자들이라면 이 개념에 대해 어렴풋이 다 알고있었죠. 하지만 라이프니츠는 이 개념을 완벽히 이해하고 식으로 정리한 반면 뉴턴은 이를 식으로 나타내지는 않았습니다. 그럼에도 불구하고 뉴턴이 미적분의 창시자로 알려진 이유는 <strong>프린키피아</strong> 라는 책 때문입니다.</p>
+
+<p>프린키피아의 원 제목은 “자연 철학의 수학적 원리”입니다. 이 책에서는 질량, 힘, 운동의 법칙을 다루며, 이를 바탕으로 만유인력 법칙을 유도하는 과정을 설명합니다. 이때  사각형이나 삼각형 등의 기하학적 도형을 활용하여 곡선 아래의 면적을 추정하거나, 물체의 운동을 예측하는 방법을 소개하죠. 프린키피아에는 미적분학에 대한 내용이 직접적으로 언급되지 않습니다. 하지만 뉴턴이 사용한 여러 기하학적 개념은 기본적으로 미적분학의 원리에 근거하고 있습니다.</p>
+
+
+</article>
+
+
+
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <a href="https://www.youtube.com/@ray_math" class="footer-heading" style="font-size: 18px; font-weight: bold;">Ray 수학</a>
+    
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+<script src="//unpkg.com/popper.js@1"></script>
+<script src="//unpkg.com/tippy.js@5"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+
+	// Enable tooltips via Tippy.js
+	if (Array.isArray(window.tooltips)) {
+		window.tooltips.forEach(function(tooltip) {
+			var selector = tooltip[0];
+			var config = tooltip[1];
+			tippy(selector, config);
+		})
+	}
+});
+
+</script>
+
+
+
+
+
+
+  </body>
+
+</html>

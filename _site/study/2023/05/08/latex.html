@@ -17,7 +17,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>실시간 수식 변환기 | LaTeX to PNG</title>
-  <meta name="description" content="">
+  <meta name="description" content="&lt;!DOCTYPE html&gt;">
   
   <meta name="author" content="Ray">
   <meta name="copyright" content="&copy; Ray 2023">
@@ -146,6 +146,10 @@
 
 	
 
+	
+
+	
+
 
       </ul>
     </nav>
@@ -184,18 +188,16 @@
 </section>
 
 <article class="post-content markdown-body">
-  
-<!DOCTYPE html>
+  <p>&lt;!DOCTYPE html&gt;</p>
 
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>실시간 LaTeX 변환기</title>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script type="text/javascript" id="MathJax-script" async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script type="text/javascript" id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <style>
     .input-row {
       display: flex;
@@ -252,25 +254,19 @@
     <label class="input-label" for="fontColor">글자 색상:</label>
     <input type="text" id="fontColor" value="black" onchange="updateOutputStyle()" />
     <div>
-      <span class="sample-color" data-color="Black" style="background-color: black;"
-        onclick="setSampleColor(this)"></span>
+      <span class="sample-color" data-color="Black" style="background-color: black;" onclick="setSampleColor(this)"></span>
       <span class="sample-color" data-color="Red" style="background-color: red;" onclick="setSampleColor(this)"></span>
-      <span class="sample-color" data-color="Blue" style="background-color: blue;"
-        onclick="setSampleColor(this)"></span>
-      <span class="sample-color" data-color="Green" style="background-color: green;"
-        onclick="setSampleColor(this)"></span>
+      <span class="sample-color" data-color="Blue" style="background-color: blue;" onclick="setSampleColor(this)"></span>
+      <span class="sample-color" data-color="Green" style="background-color: green;" onclick="setSampleColor(this)"></span>
     </div>
   </div>
   <div class="input-row">
     <label class="input-label" for="bgColor">배경 색상:</label>
     <input type="text" id="bgColor" value="transparent" onchange="updateOutputStyle()" />
     <div>
-      <span class="sample-color" data-color="transparent"
-        style="background-color: transparent; border: 1px dashed black;" onclick="setSampleBgColor(this)"></span>
-      <span class="sample-color" data-color="white" style="background-color: white; border: 1px solid black;"
-        onclick="setSampleBgColor(this)"></span>
-      <span class="sample-color" data-color="greenyellow" style="background-color: greenyellow;"
-        onclick="setSampleBgColor(this)"></span>
+      <span class="sample-color" data-color="transparent" style="background-color: transparent; border: 1px dashed black;" onclick="setSampleBgColor(this)"></span>
+      <span class="sample-color" data-color="white" style="background-color: white; border: 1px solid black;" onclick="setSampleBgColor(this)"></span>
+      <span class="sample-color" data-color="greenyellow" style="background-color: greenyellow;" onclick="setSampleBgColor(this)"></span>
     </div>
   </div>
   <button onclick="exportToPNG()">Export as PNG</button>
