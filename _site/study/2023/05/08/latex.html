@@ -17,7 +17,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>실시간 수식 변환기 | LaTeX to PNG</title>
-  <meta name="description" content="&lt;!DOCTYPE html&gt;">
+  <meta name="description" content="">
   
   <meta name="author" content="Ray">
   <meta name="copyright" content="&copy; Ray 2023">
@@ -33,9 +33,7 @@
       }
     };
     </script>
-  <script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 
   <!-- External libraries -->
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -148,8 +146,6 @@
 
 	
 
-	
-
 
       </ul>
     </nav>
@@ -188,16 +184,15 @@
 </section>
 
 <article class="post-content markdown-body">
-  <p>&lt;!DOCTYPE html&gt;</p>
-
-<html>
+  <html lang="ko">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>실시간 LaTeX 변환기</title>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script type="text/javascript" id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <style id="dynamic-styles"></style>
   <style>
     .input-row {
       display: flex;
@@ -219,15 +214,13 @@
     .sample-color {
       cursor: pointer;
       display: inline-block;
+      text-align: center;
       width: 25px;
       height: 25px;
-      font-size: 16px;
       border-radius: 25%;
-      margin-right: 3px;
     }
 
     #fontSize,
-    #bgColor,
     #fontColor {
       width: 100px;
       margin-right: 10px;
@@ -236,138 +229,126 @@
 </head>
 
 <body>
-  <h2>실시간 LaTeX 변환기 ver 1.0</h2>
-  <textarea id="latexInput" rows="3" placeholder="LaTeX 수식을 입력하세요"></textarea>
+  <h2>실시간 LaTeX 변환기 ver. 0.5</h2>
+  <textarea id="latexInput" rows="4" placeholder="LaTeX 수식을 입력하세요"></textarea>
   <br />
   <div id="latexOutput"></div>
   <br />
+  
   <div class="input-row">
     <label class="input-label" for="fontSize">글자 크기:</label>
     <input type="text" id="fontSize" value="16" oninput="updateOutputStyle()" />
     <div>
-      <span class="sample-size" data-size="16" onclick="setSampleSize(this)">16</span> /
-      <span class="sample-size" data-size="32" onclick="setSampleSize(this)">32</span> /
-      <span class="sample-size" data-size="48" onclick="setSampleSize(this)">48</span>
+      <span class="sample-size" data-size="16" style="font-size: 16px;" onclick="setSampleSize(this)">16</span>
+      <span class="sample-size" data-size="24" style="font-size: 16px;" onclick="setSampleSize(this)">24</span>
+      <span class="sample-size" data-size="32" style="font-size: 16px;" onclick="setSampleSize(this)">32</span>
+      <span class="sample-size" data-size="40" style="font-size: 16px;" onclick="setSampleSize(this)">40</span>
     </div>
   </div>
+
   <div class="input-row">
     <label class="input-label" for="fontColor">글자 색상:</label>
     <input type="text" id="fontColor" value="black" onchange="updateOutputStyle()" />
     <div>
       <span class="sample-color" data-color="Black" style="background-color: black;" onclick="setSampleColor(this)"></span>
       <span class="sample-color" data-color="Red" style="background-color: red;" onclick="setSampleColor(this)"></span>
-      <span class="sample-color" data-color="Blue" style="background-color: blue;" onclick="setSampleColor(this)"></span>
-      <span class="sample-color" data-color="Green" style="background-color: green;" onclick="setSampleColor(this)"></span>
+      <span class="sample-color" data-color="#004D81" style="background-color: #004D81;" onclick="setSampleColor(this)"></span>
+      <span class="sample-color" data-color="#FF9400" style="background-color: #FF9400;" onclick="setSampleColor(this)"></span>
     </div>
   </div>
-  <div class="input-row">
-    <label class="input-label" for="bgColor">배경 색상:</label>
-    <input type="text" id="bgColor" value="transparent" onchange="updateOutputStyle()" />
-    <div>
-      <span class="sample-color" data-color="transparent" style="background-color: transparent; border: 1px dashed black;" onclick="setSampleBgColor(this)"></span>
-      <span class="sample-color" data-color="white" style="background-color: white; border: 1px solid black;" onclick="setSampleBgColor(this)"></span>
-      <span class="sample-color" data-color="greenyellow" style="background-color: greenyellow;" onclick="setSampleBgColor(this)"></span>
-    </div>
-  </div>
-  <button onclick="exportToPNG()">Export as PNG</button>
+
+  <button onclick="exportToPNG()">Export to PNG</button>
+
   <br />
   <h3>History</h3>
   <div id="history"></div>
+
+  <script>
+    const latexInput = document.getElementById('latexInput');
+    const fontSizeInput = document.getElementById('fontSize');
+    const fontColorInput = document.getElementById('fontColor');
+    const latexOutput = document.getElementById('latexOutput');
+    const historyDiv = document.getElementById('history');
+
+    function setSampleColor(element) {
+      const color = element.getAttribute('data-color');
+      fontColorInput.value = color;
+      updateOutputStyle();
+    }
+    
+    function setSampleSize(element) {
+      const size = element.getAttribute('data-size');
+      fontSizeInput.value = size;
+      updateOutputStyle();
+    }
+
+    function updateOutputStyle() {
+      const fontSize = fontSizeInput.value;
+      const fontColor = fontColorInput.value;
+
+      const dynamicStyles = document.getElementById('dynamic-styles');
+      dynamicStyles.textContent = `
+        .mathjax-svg {
+          font-size: ${fontSize}px;
+          color: ${fontColor};
+          background-color: transparent;
+        }
+      `;
+    }
+
+    function addToHistory(latex) {
+      const entry = document.createElement('div');
+      entry.textContent = latex;
+      entry.classList.add('history-entry');
+      entry.addEventListener('click', () => {
+        latexInput.value = latex;
+        updateLatex();
+      });
+      historyDiv.appendChild(entry);
+    }
+
+    latexInput.addEventListener('input', function () {
+      const latex = latexInput.value;
+      latexOutput.innerHTML = `<span class="mathjax-svg">$$ ${latex} $$</span>`;
+      MathJax.typesetClear([latexOutput]);
+      MathJax.typesetPromise([latexOutput]).catch((err) => console.log(err));
+    });
+
+    function exportToPNG() {
+      const svgElement = latexOutput.querySelector('svg');
+      if (!svgElement) {
+        alert('Please enter the equation first.');
+        return;
+      }
+
+      const latex = latexInput.value.trim();
+      addToHistory(latex);
+
+      const svgData = new XMLSerializer().serializeToString(svgElement);
+      const modifiedSVGData = svgData.replace(/fill="([^"]*)"/g, `fill="${fontColorInput.value}"`);
+
+      const blob = new Blob([modifiedSVGData], { type: 'image/svg+xml;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+
+      let img = new Image();
+      img.onload = function () {
+        let canvas = document.createElement('canvas');
+        canvas.width = img.naturalWidth * fontSizeInput.value;
+        canvas.height = img.naturalHeight * fontSizeInput.value;
+        let context = canvas.getContext('2d');
+        context.drawImage(img, 0, 0, canvas.width, canvas.height);
+        canvas.toBlob(function (blob) {
+          let link = document.createElement('a');
+          link.download = `${latex}.png`;
+          link.href = URL.createObjectURL(blob);
+          link.click();
+          URL.revokeObjectURL(link.href);
+        }, 'image/png');
+      };
+      img.src = url;
+    }
+  </script>
 </body>
-
-<script>
-  const latexInput = document.getElementById('latexInput');
-  const latexOutput = document.getElementById('latexOutput');
-  const fontSize = document.getElementById('fontSize');
-  const bgColor = document.getElementById('bgColor');
-  const fontColor = document.getElementById('fontColor');
-  const historyDiv = document.getElementById('history');
-
-  function updateLatex() {
-    const latex = latexInput.value;
-    latexOutput.innerHTML = `$$ ${latex} $$`;
-    MathJax.typesetClear([latexOutput]);
-    MathJax.typesetPromise([latexOutput]).then(() => updateOutputStyle()).catch((err) => console.log(err));
-  }
-
-  latexInput.addEventListener('input', updateLatex);
-
-  function updateOutputStyle() {
-    const svgElement = latexOutput.querySelector('svg');
-    if (svgElement) {
-      svgElement.style.fontSize = fontSize.value + 'px';
-      svgElement.style.backgroundColor = bgColor.value;
-      svgElement.querySelectorAll('g')[0].style.fill = fontColor.value;
-    }
-  }
-
-  function setSampleSize(element) {
-    const size = element.getAttribute('data-size');
-    fontSize.value = size;
-    updateOutputStyle();
-  }
-
-  function setSampleBgColor(element) {
-    const color = element.getAttribute('data-color');
-    bgColor.value = color;
-    updateOutputStyle();
-  }
-
-  function setSampleColor(element) {
-    const color = element.getAttribute('data-color');
-    fontColor.value = color;
-    updateOutputStyle();
-  }
-
-  function svgToPng(svgElement) {
-    return new Promise((resolve, reject) => {
-      const svg = svgElement.cloneNode(true);
-      const svgBlob = new Blob([svg.outerHTML], { type: 'image/svg+xml;charset=utf-8' });
-      const svgURL = URL.createObjectURL(svgBlob);
-      const img = new Image();
-      img.src = svgURL;
-
-      img.onload = () => {
-        const canvas = document.createElement('canvas');
-        canvas.width = img.width;
-        canvas.height = img.height;
-        const ctx = canvas.getContext('2d');
-        ctx.drawImage(img, 0, 0);
-        URL.revokeObjectURL(svgURL);
-        resolve(canvas.toDataURL('image/png'));
-      };
-
-      img.onerror = (error) => {
-        reject(error);
-      };
-    });
-  }
-
-  async function exportToPNG() {
-    const svgElement = latexOutput.querySelector('svg');
-    if (!svgElement) {
-      alert('수식을 먼저 입력해주세요.');
-      return;
-    }
-    addToHistory(latexInput.value);
-    const pngDataUrl = await svgToPng(svgElement);
-    const link = document.createElement('a');
-    link.download = latexInput.value + '.png';
-    link.href = pngDataUrl;
-    link.click();
-  }
-
-  function addToHistory(latex) {
-    const entry = document.createElement('div');
-    entry.textContent = latex;
-    entry.classList.add('history-entry');
-    entry.addEventListener('click', () => {
-      latexInput.value = latex;
-      updateLatex();
-    });
-    historyDiv.appendChild(entry);
-  }
-</script>
 
 </html>
 
