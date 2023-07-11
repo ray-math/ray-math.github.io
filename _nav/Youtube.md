@@ -13,7 +13,7 @@ main_nav: true
     <a href="{{ site.baseurl }}/category/{{ category }}/">{{ category | capitalize }} ({{ site.categories[category].size }})</a>
   </h3>
   <ul class="posts-list">
-  {% for post in category_posts limit:4 %}
+  {% for post in category_posts limit:5 %}
     <li>
       <strong>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4K12VW0MHL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4K12VW0MHL');
+  </script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8713785435318590"
+     crossorigin="anonymous"></script>
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>데시벨을 로그로 나타내는 이유</title>
+  <meta name="description" content="">
+  
+  <meta name="author" content="Ray">
+  <meta name="copyright" content="&copy; Ray 2023">
+  
+
+  <!-- MathJax -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        processEscapes: true,
+      }
+    };
+    </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-light.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="https://ray-math.github.io/shorts/2023/07/02/4.html">
+	<link rel="alternate" type="application/rss+xml" title="Ray 수학" href="https://ray-math.github.io/feed.xml" />
+	
+	<!-- Tooltips -->
+	<script type="text/javascript">
+		window.tooltips = []
+	</script>
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo.png" alt="Ray 수학">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+				
+	
+	<li class="nav-link"><a href="/math/">Math</a>
+	
+
+	
+	<li class="nav-link"><a href="/memo/">Memo</a>
+	
+
+	
+	<li class="nav-link"><a href="/youtube/">Youtube</a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h2 class="title" style="color:#005493;">데시벨을 로그로 나타내는 이유</h2>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">July 2, 2023</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/shorts">Shorts</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content markdown-body">
+  
+<h2 id="소리-강도와-데시벨">소리 강도와 데시벨</h2>
+
+<p>소리의 강도 I는 소리의 에너지 E를 전달하는 시간 t와 면적 A에 의해 결정됩니다. 이 관계는 다음과 같은 수식으로 표현될 수 있습니다:</p>
+
+\[I = {E \over t \cdot A}\]
+
+<p>데시벨은 소리의 강도를 로그 스케일로 표현한 것입니다. 데시벨의 정의는 다음과 같습니다:</p>
+
+\[dB = 10 \cdot \log_{10} \left( {I \over I_0} \right)\]
+
+<p>그런데 왜 소리의 크기를 나타내는 데시벨은 로그로 나타내는 걸까요?</p>
+
+<h2 id="사람의-귀">사람의 귀</h2>
+
+<p>소리의 강도가 선형적으로 증가하더라도, 우리가 그 증가를 지각하는 방식은 로그 척도로 바꿔 인식합니다. 이러한 이유로, 소리의 강도를 측정할 때는 보통 데시벨(decibel, dB)이라는 로그 척도를 사용하죠.</p>
+
+<p>사람의 청각은 환경에서 오는 다양한 소리의 강도에 대해 민감하게 반응할 수 있어야 했습니다. 이런 상황에서, 소리를 선형적으로 인식하면 강도가 매우 큰 경우와 작은 경우를 구별하는 데 제한이 있을 수 있습니다.</p>
+
+<p>예를들어 개미가 걷는 소리와 폭탄이 커지는 소리의 에너지 차이가 $1000$배라고 가정하겠습니다. 이를 선형적으로 표현하면 그 차이가 매우 크므로 사람의 청각이 이를 세세하게 구별하기 위해서는 청각 능력이 매우 뛰어나야 합니다.</p>
+
+<p>하지만 사람의 청각은 그렇게 작동하지 않습니다. 주변 소리가 작으면 그보다 조금이라도 더 큰 소리를 구별할 수 있고, 큰 소리가 난다면 그 주변에 작은 소리를 무시합니다. 이렇게 서로 다른 소리의 상대적인 차이를 비교할 수 있어야 생존에 유리하므로 주변 소리를 비교하는 방향으로 진화하였죠. ‘한 소리가 다른 소리보다 2배로 크다’는 판단은 선형적인 척도로는 불명확하지만 로그 척도에서는 명확하게 표현할 수 있으므로 이러한 인지하는 방식을 반영하기 위해 데시벨은 로그 척도를 사용합니다.</p>
+
+<h2 id="소리-강도가-2배가-될-때의-데시벨-변화">소리 강도가 2배가 될 때의 데시벨 변화</h2>
+
+<p>소리의 강도가 2배가 될 때, 데시벨 값은 어떻게 변할까요?. 새로운 소리 강도를 (2I)라고 하면, 데시벨 값은 다음과 같이 계산됩니다</p>
+
+\[dB_{new} = 10 \cdot \log_{10} \left( {2I \over I_0} \right)\]
+
+<p>이를 원래의 데시벨 값과 비교하면, 상용로그 $\log 2 = 0.3010$이므로</p>
+
+\[\Delta dB = dB_{new} - dB = 10 \cdot \log_{10}(2) \approx 3dB\]
+
+<p>다음과 같이 식을 정리할 수 있습니다. 따라서, 소리의 강도가 2배가 될 때, 데시벨 값은 약 3dB 증가합니다.</p>
+
+<h2 id="노이즈-캔슬링과-데시벨">노이즈 캔슬링과 데시벨</h2>
+<p>가끔 이어폰 광고를 보면 노이즈 캔슬링 성능을 대대적으로 홍보합니다. 노이즈 캔슬링 성능이 $2$배 증가한다는 것을 얼마나 효과적일까요? 노이즈 캔슬링은 소리 강도를 줄이는 방식으로 작동합니다. 소리 강도는 소리 에너지의 흐름을 측정하는 물리적 수량이고 이는 소리의 전압을 줄이는 것과 동일합니다. 왜냐하면 소리는 기본적으로 공기 분자의 진동으로 에너지를 전달하고, 이 에너지는 전압에 의해 측정될 수 있습니다. 따라서 전압은 전기 에너지를 전달하는 데 필요한 힘을 나타내므로 소리 에너지를 전달하는 데 필요한 힘과 직접적으로 관련이 있습니다.</p>
+
+<p>옴의 법칙에 의해 $P = I \cdot V$ 이고  $I = V \over R$이므로. 이를 전력의 식에 대입하면 다음과 같습니다:</p>
+
+\[P = \frac{V^2}{R}\]
+
+<p>따라서, 전력 즉 에너지는 전압의 제곱에 비례합니다. 소리의 강도는 단위 면적 당 전달되는 소리 에너지를 나타내므로, 소리의 강도는 전압의 제곱에 비례합니다. 이를 수식으로 표현하면 다음과 같습니다:</p>
+
+\[I_{new} = \left( {V_{new} \over V} \right)^2 \cdot I = \left( {1 \over 2} \right)^2 \cdot I = {1 \over 4} \cdot I\]
+
+<p>이를 데시벨로 표현하면, 소리 강도가 1/4로 줄어들었을 때의 데시벨 값은 다음과 같습니다:</p>
+
+\[dB_{new} = 10 \cdot \log_{10} \left( {I/4 \over I_0} \right)\]
+
+<p>이를 원래의 데시벨 값과 비교하면, 두 데시벨 값의 차이는 다음과 같습니다:</p>
+
+\[\Delta dB = dB_{new} - dB = 10 \cdot \log_{10}(1/4) = -6dB\]
+
+<p>따라서, 소리의 전압이 절반으로 줄어들면, 데시벨 값은 약 -6dB 감소합니다. 이는 노이즈 캔슬링 기능이 소리의 전압을 절반으로 줄이는 것과 동일하므로, 노이즈 캔슬링 성능이 두 배 향상되었다는 것은 데시벨로 표현하면 약 -6dB의 향상을 의미합니다.</p>
+
+<p>배경음을 6dB 키우면 이렇게 되고 반대로 다시 줄이면 이렇게 됩니다. 주변음을 이정도로 효과적으로 제어한다는거죠. $2$배 차이가 느껴지시나요?</p>
+
+
+</article>
+
+
+
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <a href="https://www.youtube.com/@ray_math" class="footer-heading" style="font-size: 18px; font-weight: bold;">Ray 수학</a>
+    
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+<script src="//unpkg.com/popper.js@1"></script>
+<script src="//unpkg.com/tippy.js@5"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+
+	// Enable tooltips via Tippy.js
+	if (Array.isArray(window.tooltips)) {
+		window.tooltips.forEach(function(tooltip) {
+			var selector = tooltip[0];
+			var config = tooltip[1];
+			tippy(selector, config);
+		})
+	}
+});
+
+</script>
+
+
+
+
+
+
+  </body>
+
+</html>
