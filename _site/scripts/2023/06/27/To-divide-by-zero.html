@@ -19,7 +19,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>pH척도</title>
+  <title>$0$으로 나눌 수 있다.</title>
   <meta name="description"
     content="">
   
@@ -78,7 +78,7 @@
   <link rel="stylesheet" type="text/css"
     href="https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
   <link rel="stylesheet" href=" /css/main.css">
-  <link rel="canonical" href="https://ray-math.github.io/tag/ph%EC%B2%99%EB%8F%84/">
+  <link rel="canonical" href="https://ray-math.github.io/scripts/2023/06/27/To-divide-by-zero.html">
   <link rel="alternate" type="application/rss+xml" title="Ray 수학" href="https://ray-math.github.io /feed.xml" />
 
   <!-- Tooltips -->
@@ -156,8 +156,6 @@
 
 	
 
-	
-
 
       </ul>
     </nav>
@@ -166,30 +164,88 @@
 
 
     <div class="page-content">
-        <div class="wrapper">
-<div class="page">
+        <div class="post">
 
-  <header class="post-header">
-    <h2 class="post-title" style="color:#005493;">Posts in Ph척도</h2>
-  </header>
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h2 class="title" style="color:#005493;">$0$으로 나눌 수 있다.</h2>
+    </header>
+  </div>
+</div>
 
-  <span class="page-divider">
+<div class="wrapper">
+
+ <span class="page-divider">
   <span class="one"></span>
   <span class="two"></span>
 </span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">June 27, 2023</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/scripts">Scripts</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content markdown-body">
+  
+<p>이전 글에서 $0$으로 나누는 것은 정의되지 않는다고 했습니다. 수학의 기본적인 규칙과 원칙을 유지하기 위하여 금지해 놓은 것이죠. 그런다면 규칙과 원칙만 유지할 수 있다면 $0$으로 나누어도 괜찮을까요? 결론부터 말씀드리면 일반적이지 않지만 가능하게할 수 있습니다. 왜 이렇게 애매하게 말하냐면 이 영상을 다 보시면 이해가 되시겠지만 정말 특수한 경우에만 성립하기 때문입니다. 제목만 보고 <strong>$0$으로 나누는게 가능하다</strong>고 생각하시면 절대 안된다는 점을 미리 말씀드리겠습니다. 우선 $0$으로 나누기 위해서는 $0$으로 나눌 수 없었던 상황에서 출발해야합니다. $0$으로 나눌 수 없었던 이유를 적절히 제거하면 $0$으로 나눌 수 있기 때문이죠. 따라서 이전 글을 안보신 분이 있다면 꼭 먼저 보고 이 글을 보시기 추천드립니다.</p>
+
+<h2 id="군과-환">군과 환</h2>
+<p>$0$으로 나누기 전에 먼저 나눗셈에 대해 명확히 알아야할 필요가 있습니다. 나눗셈을 명확히 정의하기 위해 연산에 대한 대수적 구조를 이해해야하므로 대수학의 기본적인 구조 <strong>군(Group)</strong>과 <strong>환(Ring)</strong>에 대해 알려드리겠습니다. 군과 환은은 추상적인 수학적 구조를 이해하고 분석하는 데 필요한 도구를 제공합니다. 예를 들어 군은 대칭과 변환을 이해하는데 도움이 되며, 환은 다양한 다양한 수학적 구조를 이해하는데 도움이 됩니다. 정확히 설명한다면 1년 내내 설명해도 부족한 주제라 $0$을 나누기 위해 필요한 성질만 간단하게 보도록하겠습니다.</p>
+
+<p>집합 $G$와 이항연산 $*$에 대해 연산한 결과가 다시 집합에 있을 때 즉, 연산이 잘 정의되어 있을때,</p>
+
+\[G * G \rightarrow G\]
+
+<p>결합법칙을 만족하고 모든 원소에 대해 항등원, 역원이 존재하면 군이라 부릅니다. 각 조건들에 대해 자세히 알아보죠.</p>
+
+<h2 id="잘-정의된-연산">잘 정의된 연산</h2>
+<p>한국어로 표현하면 뭔 수학용어가 저래 라고 생각하시겠지만 사실</p>
+
+<h3 id="결합법칙">결합법칙</h3>
+<p>모든 $a$, $b$, $c$에 대해 연산의 순서를 바꿔 연산해도 결괏값이 같으면 결합법칙을 만족한다고 합니다. 일반적으로 우리가 생각하는 연산들은 거의 모두 결합법칙이 성립합니다.</p>
+
+\[(a * b) * c = a * (b * c)\]
+
+<p>여기서 뺄셈과 나눗셈은 결합법칙이 성립하지 않냐고 반문하실 수 있지만 ‘뺄셈’은 ‘음수의 덧셈’으로, ‘나눗셈’은 ‘역수의 곱셈’으로 바꿀 수 있으므로 뺄셈과 나눗셈은 연산이라고 잘 표현하지 않는 편입니다. 반면에 덧셈과 곱셈은 결합법칙이 잘 성립합니다. 고등학교 과정에서는 잘 다루지 않지만 벡터의 외적이나 테트레이션 등이 결합법칙이 성립하지 않는 것으로 알려져 있습니다.</p>
+
+<h3 id="항등원">항등원</h3>
+<p>요새는 항등원과 역원을 학교에서 가르치지 않아 생소한 개념일 수 있습니다. 항등원은 $e$라는 원소가 존재하여 모든 $a$에 대해 $e * a = a * e = a$가 성립하는 것을 의미합니다. 예를 들어보죠. 유리수 집합에 대해 덧셈연산 ($\mathbb{Q}$,  $+$)의 항등원은 무엇일까요? 다른말로 정수 중에서 어떤 수가 $a + e=a$를 만족하게하는 $e$일까요? 바로 $e=0$입니다. 따라서 $0$을 덧셈의 항등원이라 부릅니다.</p>
+
+<h3 id="역원">역원</h3>
+<p>역원은 모든 $a$에 대해 $x$라는 원소가 존재하여 $a * x = x * a = e$가 성립하는 것을 의미합니다. 정수집합에 대해 덧셈연산 ($\Z$,  $+$)이 있다고 해보겠습니다. $1 \in \Z$에 대하여 $1 + x = 0$을 만족하는 $x$는 얼마인가요? $x=-1$입니다. 따라서 $-1$을 $1$의 덧셈에 대한 역원이라 부릅니다.</p>
+
+<p>사실 우리가 다 아는 개념인데 앞으로 볼 어려운 것들</p>
+
+<ol>
+  <li>결합법칙</li>
+</ol>
+
+<p><strong>환(Ring)</strong>은 수학에서 덧셈, 뺄셈, 곱셈이 정의된 대수적 구조를 의미합니다. 환은 집합론적으로는 집합에 두 가지 연산이 정의된 구조로 볼 수 있습니다. 이 두 연산은 덧셈과 곱셈으로, 덧셈에 대해서는 군을 이루고, 곱셈에 대해서는 반군을 이루는 것이 일반적입니다. 쉽게 자연수 집합과 정수 집합을 생각해보겠습니다.</p>
+
+<p>그렇다면 정수집합에 대해 곱셈 연산 ($\Z$, $\times$)의 항등원 무엇일까요? 어떤 수가</p>
+
+\[a \times e =a\]
+
+<p>를 만족하게하는 $e$일까요? 어렵지 않게 $e=1$임을 할 수 있습니다. 그러므로 $1$을 곱셈의 항등원이라 부릅니다.</p>
+
+</article>
 
 
-  <article class="post-content">
-    <ul class="posts-list">
-      
-      <li><strong><a class="post-link" href="/scripts/equations/2023/05/15/Log.html">세상을 바꾼 17가지 방정식 - 2. 로그</a></strong><span class="post-date"> - May 15, 2023</span></li>
-      
-    </ul>
-  </article>
+
+
+
+
 
 </div>
 </div>
-<br>
 
     </div>
 
