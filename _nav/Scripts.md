@@ -5,7 +5,7 @@ permalink: /scripts/
 main_nav: true
 ---
 
-{% assign target_categories = "scripts, equations" | split: "," %}
+{% assign target_categories = "scripts,equations" | split: "," %}
 
 {% for category in target_categories %}
   {% assign category_posts = site.categories[category] %}

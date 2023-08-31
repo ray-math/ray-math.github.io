@@ -32,12 +32,12 @@
   <script>
     MathJax = {
       tex: {
-        inlineMath: [['$', '$'], ["\(", "\)"]],
+        inlineMath: [['$', '$'], ["\\(", "\\)"]],
         processEscapes: true,
       }
     };
   </script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
   <!-- External libraries -->
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -78,8 +78,8 @@
   <link rel="stylesheet" type="text/css"
     href="https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
   <link rel="stylesheet" href=" /css/main.css">
-  <link rel="canonical" href="https://ray-math.github.io/page/2/">
-  <link rel="alternate" type="application/rss+xml" title="Ray 수학" href="https://ray-math.github.io /feed.xml" />
+  <link rel="canonical" href="http://localhost:4000/page/2/">
+  <link rel="alternate" type="application/rss+xml" title="Ray 수학" href="http://localhost:4000 /feed.xml" />
 
   <!-- Tooltips -->
   <script type="text/javascript">
@@ -120,6 +120,8 @@
 
 	
 
+	
+	<li class="nav-link"><a href="/search">Search</a>
 	
 
 	
@@ -182,6 +184,72 @@
   
   <li>
     <h4>
+      <a class="post-link" href="/scripts/2023/07/04/32-square-circle.html">어느새 부터 패턴은 안멋져</a>
+    </h4>
+    <section class="post-excerpt" itemprop="description">
+      <p>원형 수열의 결괏값과 python 코드는 아래 링크로 들어가주세요. 32 square circle : Hamiltonian cycles 1 8 28 21 4 32 17 19 30 6 3 13 12 24 25 11 5 31 18 7 29 20 16 9 27 22 14 2 23 26 10 15 여기 보이는 이 숫자들은...</p>
+    </section>
+    <section class="post-meta">
+      <div class="post-date">July 4, 2023</div>
+      <div class="post-categories">
+      in 
+        
+        <a href="/category/scripts">Scripts</a>
+        
+      
+      </div>
+    </section>
+  </li>
+  
+  <hr>
+  
+  
+  <li>
+    <h4>
+      <a class="post-link" href="/memo/2023/07/02/The-reason-for-expressing-decibels-logarithmicall.html">데시벨을 로그로 나타내는 이유</a>
+    </h4>
+    <section class="post-excerpt" itemprop="description">
+      <p>소리 강도와 데시벨 소리의 강도 I는 소리의 에너지 E를 전달하는 시간 t와 면적 A에 의해 결정됩니다. 이 관계는 다음과 같은 수식으로 표현될 수 있습니다: \[I = {E \over t \cdot A}\] 데시벨은 소리의 강도를 로그 스케일로 표현한 것입니다. 데시벨의 정의는 다음과 같습니다: \[dB = 10 \cdot \log_{10} \left( {I \over...</p>
+    </section>
+    <section class="post-meta">
+      <div class="post-date">July 2, 2023</div>
+      <div class="post-categories">
+      in 
+        
+        <a href="/category/memo">Memo</a>
+        
+      
+      </div>
+    </section>
+  </li>
+  
+  <hr>
+  
+  
+  <li>
+    <h4>
+      <a class="post-link" href="/scripts/2023/06/30/How-did-humanity-discover-e.html">인류는 어떻게 $e$를 발견했는가?</a>
+    </h4>
+    <section class="post-excerpt" itemprop="description">
+      <p>흔히 자연상수라 불리는 $e$는 수학의 여러 분야에서 중요한 역할을 합니다. 수학이나 자연과학, 심지어 사회과학에서도 등장하죠. 이렇게 모든 곳에서 볼 수 있는 $e$를 인류는 어떻게 발견하고 유도했을까요? $e$에 대한 모든 유도과정을 차근차근 살펴보도록 하죠.(앞으로 볼 내용 중에서는 여러분들이 공부하면서 봤던 내용들이 많이 있을 것 있니다. 아시는 내용은 건너뛰시면서 마지막에 왜 이...</p>
+    </section>
+    <section class="post-meta">
+      <div class="post-date">June 30, 2023</div>
+      <div class="post-categories">
+      in 
+        
+        <a href="/category/scripts">Scripts</a>
+        
+      
+      </div>
+    </section>
+  </li>
+  
+  <hr>
+  
+  
+  <li>
+    <h4>
       <a class="post-link" href="/shorts/2023/06/27/The-Capture-Recapture-Method.html">포획 & 재포획법</a>
     </h4>
     <section class="post-excerpt" itemprop="description">
@@ -237,50 +305,6 @@
       in 
         
         <a href="/category/scripts">Scripts</a>
-        
-      
-      </div>
-    </section>
-  </li>
-  
-  <hr>
-  
-  
-  <li>
-    <h4>
-      <a class="post-link" href="/scripts/2023/06/26/The-reason-why-you-cannot-divide-by-zero.html">$0$으로 나눌 수 없는 5가지 이유</a>
-    </h4>
-    <section class="post-excerpt" itemprop="description">
-      <p>어떤 수를 $0$으로 나누는 것은 가능할까요? 왜 인지 명확하게 설명은 하지 못하더라도 아마 초등학교 때 나눗셈을 배웠을 때부터 꾸준히 암기했기 때문에 안된다는 사실은 알고 계실 것입니다. 그렇다면 왜 $0$으로 나누는 것은 안되는걸까요? 1. 나눗셈의 개념 우리가 $0$으로 나누는 방법을 알아보기 위해서는 먼저 나눗셈에 대해 알아야 합니다. 처음 나누기에 대해 배울...</p>
-    </section>
-    <section class="post-meta">
-      <div class="post-date">June 26, 2023</div>
-      <div class="post-categories">
-      in 
-        
-        <a href="/category/scripts">Scripts</a>
-        
-      
-      </div>
-    </section>
-  </li>
-  
-  <hr>
-  
-  
-  <li>
-    <h4>
-      <a class="post-link" href="/memo/2023/06/25/Euler's-number.html">자연상수 $e$가 로그의 밑으로 합리적인 이유</a>
-    </h4>
-    <section class="post-excerpt" itemprop="description">
-      <p>로그의 밑 우리가 로그를 처음 배울 때 로그의 밑은 10진법의 상용로그를 주로 사용합니다. 하지만 심화 미적분에서 자연상수 $e$를 도입하면서 부터는 로그는 자연로그 $\ln x$를 주로 사용하게 됩니다. 처음 배울때는 생소한 개념인 자연상수 $e$때문에 괜히 미적분을 선택했나 후회하게 되는데요. 그런데 혹시 로그의 밑은 10보다 $e$가 합리적이란 사실을 알고 계셨나요? 로그의 치명적...</p>
-    </section>
-    <section class="post-meta">
-      <div class="post-date">June 25, 2023</div>
-      <div class="post-categories">
-      in 
-        
-        <a href="/category/memo">Memo</a>
         
       
       </div>

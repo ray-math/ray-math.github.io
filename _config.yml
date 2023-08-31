@@ -38,7 +38,7 @@ highlightjs_theme: "atom-one-light"
 # https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
 pagination:
   enabled: true
-  per_page: 5
+  per_page: 6
   permalink: "/page/:num/"
   sort_reverse: true
 
