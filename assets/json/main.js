@@ -1,0 +1,1 @@
+importJavaScript('simple-jekyll-search.min');

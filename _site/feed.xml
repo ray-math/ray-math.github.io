@@ -3,18 +3,18 @@
   <channel>
     <title>Ray 수학</title>
     <description></description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 31 Aug 2023 22:22:36 +0900</pubDate>
-    <lastBuildDate>Thu, 31 Aug 2023 22:22:36 +0900</lastBuildDate>
+    <link>https://ray-math.github.io/</link>
+    <atom:link href="https://ray-math.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 14 Sep 2023 20:49:44 +0900</pubDate>
+    <lastBuildDate>Thu, 14 Sep 2023 20:49:44 +0900</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
         <title>제곱한 후 나누어 더하면 자기 자신?</title>
         <description>&lt;p&gt;오늘은 숫자의 특별한 성질 중 하나를 소개하려고 합니다. 이 성질은 숫자를 제곱한 후, 그 결과를 특정 방식으로 나누어 더하면 다시 자기 자신이 되는 숫자를 의미합니다. 이러한 성질을 가진 숫자는 수학에서...</description>
         <pubDate>Fri, 25 Aug 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/shorts/2023/08/25/square-and-divide-and-add.html</link>
-        <guid isPermaLink="true">http://localhost:4000/shorts/2023/08/25/square-and-divide-and-add.html</guid>
+        <link>https://ray-math.github.io/shorts/2023/08/25/square-and-divide-and-add.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/shorts/2023/08/25/square-and-divide-and-add.html</guid>
         
         
         <category>shorts</category>
@@ -25,8 +25,8 @@
         <title>자기 자신을 만들어 내는식</title>
         <description>&lt;p&gt;여러분은 이 식이 어떤 의미를 갖고 있는지 아시나요?&lt;/p&gt; \[\frac{1}{2} &amp;lt; \left\lfloor \mathrm{mod}\left(\left\lfloor \frac{y}{17}\right\rfloor 2^{-17\lfloor x\rfloor - \mathrm{mod}(\lfloor y\rfloor, 17)},2\right)\right\rfloor\] &lt;p&gt;이 식은 수학자 Jeff Tupper가 발표한 공식으로, 그래프를 통해 자기 자신을...</description>
         <pubDate>Mon, 14 Aug 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/shorts/2023/08/14/self-referential-formula.html</link>
-        <guid isPermaLink="true">http://localhost:4000/shorts/2023/08/14/self-referential-formula.html</guid>
+        <link>https://ray-math.github.io/shorts/2023/08/14/self-referential-formula.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/shorts/2023/08/14/self-referential-formula.html</guid>
         
         
         <category>shorts</category>
@@ -37,8 +37,8 @@
         <title>1만 더했을 뿐인데</title>
         <description>&lt;h2 id=&quot;frac1x3의-적분&quot;&gt;$\frac{1}{x^3}$의 적분&lt;/h2&gt; &lt;p&gt;$\frac{1}{x^3}$을 적분하려면, 기본적인 적분 공식($\int x^n dx = \frac{x^{n+1}}{n+1}+c$)을 사용해 비교적 간단하게 적분할 수 있습니다.&lt;/p&gt; \[\begin{align*} \int \frac{1}{x^3} dx &amp;amp;= \int x^{-3} dx \\ &amp;amp;= \frac{x^{-2}}{-2} +...</description>
         <pubDate>Sun, 13 Aug 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/shorts/2023/08/13/integral.html</link>
-        <guid isPermaLink="true">http://localhost:4000/shorts/2023/08/13/integral.html</guid>
+        <link>https://ray-math.github.io/shorts/2023/08/13/integral.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/shorts/2023/08/13/integral.html</guid>
         
         
         <category>shorts</category>
@@ -49,8 +49,8 @@
         <title>모든 것을 알기위한 열쇠, 독립</title>
         <description>&lt;p&gt;&lt;strong&gt;독립&lt;/strong&gt;이라는 단어는 일상적인 언어에서 “서로 관련이 없다”라는 의미로 사용되곤 합니다. 하지만 그 의미 때문에 확률과 통계에서 독립의 개념을 배울 때 한 사건이 다른 사건과 아무런 관련이 없음을 의미한다고 착각하기 쉽습니다....</description>
         <pubDate>Fri, 11 Aug 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/scripts/2023/08/11/Independent.html</link>
-        <guid isPermaLink="true">http://localhost:4000/scripts/2023/08/11/Independent.html</guid>
+        <link>https://ray-math.github.io/scripts/2023/08/11/Independent.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/scripts/2023/08/11/Independent.html</guid>
         
         
         <category>scripts</category>
@@ -61,8 +61,8 @@
         <title>감정은 전염되는가?</title>
         <description>&lt;p&gt;최근 뉴스를 보면 극단적 선택, 무차별 테러, 마약 등 마음 아픈 기사들이 많이 보입니다. 요즘에는 미디어나 SNS를 통해 기사나 정보가 예전보다 더 빠르게 퍼지고 있습니다. 그런데 저는 이러한 기사들이 오히려...</description>
         <pubDate>Sat, 05 Aug 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/scripts/2023/08/05/Emotional-Contagion.html</link>
-        <guid isPermaLink="true">http://localhost:4000/scripts/2023/08/05/Emotional-Contagion.html</guid>
+        <link>https://ray-math.github.io/scripts/2023/08/05/Emotional-Contagion.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/scripts/2023/08/05/Emotional-Contagion.html</guid>
         
         
         <category>scripts</category>
@@ -73,8 +73,8 @@
         <title>세상을 바꾼 17가지 방정식 - 4. 만유인력의 법칙</title>
         <description>&lt;h2 id=&quot;케플러의-세번째-법칙-조화-법칙&quot;&gt;케플러의 세번째 법칙 (조화 법칙)&lt;/h2&gt; &lt;p&gt;| 구분 | A | B | |:——:|:——:|:——:| | 1 | $6.655 \times 10^{10}$ | $87.6$ | | 2 | $1.089 \times 10^{11}$ |...</description>
         <pubDate>Tue, 11 Jul 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/scripts/equations/2023/07/11/Law-of-Universal-Gravitation.html</link>
-        <guid isPermaLink="true">http://localhost:4000/scripts/equations/2023/07/11/Law-of-Universal-Gravitation.html</guid>
+        <link>https://ray-math.github.io/scripts/equations/2023/07/11/Law-of-Universal-Gravitation.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/scripts/equations/2023/07/11/Law-of-Universal-Gravitation.html</guid>
         
         
         <category>scripts</category>
@@ -87,8 +87,8 @@
         <title>어느새 부터 패턴은 안멋져</title>
         <description>&lt;p&gt;원형 수열의 결괏값과 python 코드는 아래 링크로 들어가주세요.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://rayc20.tistory.com/272&quot;&gt;32 square circle : Hamiltonian cycles&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;1 8 28 21 4 32 17 19 30 6 3 13 12 24 25...</description>
         <pubDate>Tue, 04 Jul 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/scripts/2023/07/04/32-square-circle.html</link>
-        <guid isPermaLink="true">http://localhost:4000/scripts/2023/07/04/32-square-circle.html</guid>
+        <link>https://ray-math.github.io/scripts/2023/07/04/32-square-circle.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/scripts/2023/07/04/32-square-circle.html</guid>
         
         
         <category>scripts</category>
@@ -99,8 +99,8 @@
         <title>데시벨을 로그로 나타내는 이유</title>
         <description>&lt;h2 id=&quot;소리-강도와-데시벨&quot;&gt;소리 강도와 데시벨&lt;/h2&gt; &lt;p&gt;소리의 강도 I는 소리의 에너지 E를 전달하는 시간 t와 면적 A에 의해 결정됩니다. 이 관계는 다음과 같은 수식으로 표현될 수 있습니다:&lt;/p&gt; \[I = {E \over t...</description>
         <pubDate>Sun, 02 Jul 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/memo/2023/07/02/The-reason-for-expressing-decibels-logarithmicall.html</link>
-        <guid isPermaLink="true">http://localhost:4000/memo/2023/07/02/The-reason-for-expressing-decibels-logarithmicall.html</guid>
+        <link>https://ray-math.github.io/memo/2023/07/02/The-reason-for-expressing-decibels-logarithmicall.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/memo/2023/07/02/The-reason-for-expressing-decibels-logarithmicall.html</guid>
         
         
         <category>memo</category>
@@ -111,8 +111,8 @@
         <title>인류는 어떻게 $e$를 발견했는가?</title>
         <description>&lt;p&gt;흔히 자연상수라 불리는 $e$는 수학의 여러 분야에서 중요한 역할을 합니다. 수학이나 자연과학, 심지어 사회과학에서도 등장하죠. 이렇게 모든 곳에서 볼 수 있는 $e$를 인류는 어떻게 발견하고 유도했을까요? $e$에 대한 모든 유도과정을...</description>
         <pubDate>Fri, 30 Jun 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/scripts/2023/06/30/How-did-humanity-discover-e.html</link>
-        <guid isPermaLink="true">http://localhost:4000/scripts/2023/06/30/How-did-humanity-discover-e.html</guid>
+        <link>https://ray-math.github.io/scripts/2023/06/30/How-did-humanity-discover-e.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/scripts/2023/06/30/How-did-humanity-discover-e.html</guid>
         
         
         <category>scripts</category>
@@ -123,8 +123,8 @@
         <title>요일의 순서</title>
         <description>&lt;p&gt;일주일의 순서는 어떻게 정해졌을까요? 고대 바빌로니아인들은 하늘을 가로질러 움직이는 7개의 천체를 관찰하고, 지구를 중심으로 한 공전주기를 기준으로 순서를 정하였습니다.&lt;/p&gt; \[\begin{align*} \text{토성} &amp;amp; : 29.45 \text{년} \\ \text{목성} &amp;amp; : 11.86...</description>
         <pubDate>Tue, 27 Jun 2023 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/shorts/2023/06/27/The-order-of-days-of-the-week.html</link>
-        <guid isPermaLink="true">http://localhost:4000/shorts/2023/06/27/The-order-of-days-of-the-week.html</guid>
+        <link>https://ray-math.github.io/shorts/2023/06/27/The-order-of-days-of-the-week.html</link>
+        <guid isPermaLink="true">https://ray-math.github.io/shorts/2023/06/27/The-order-of-days-of-the-week.html</guid>
         
         
         <category>shorts</category>
